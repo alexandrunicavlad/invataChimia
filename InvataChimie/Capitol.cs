@@ -14,7 +14,7 @@ namespace InvataChimie
 {
     class Capitol
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string DisplayName { get; set; }
         public string PhotoId { get; set; }
     }

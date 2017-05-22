@@ -28,12 +28,14 @@ namespace InvataChimie
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             var webView = (WebView)FindViewById<WebView>(Resource.Id.webView);
-            
-            String html = "<html><body>Hello, World!</body></html>";
+
+            string capId = "cap" + id;
+            //string html = Resources.GetString(Resources.GetIdentifier(capId, "string", PackageName));
             String mime = "text/html";
             String encoding = "utf-8";
             webView.Settings.JavaScriptEnabled = true;
-            webView.LoadDataWithBaseURL(null, html, mime, encoding, null);
+            webView.LoadUrl("file:///android_asset/" + capId.ToUpper() + ".html");
+            //webView.LoadDataWithBaseURL(null, mime, encoding, null);
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)

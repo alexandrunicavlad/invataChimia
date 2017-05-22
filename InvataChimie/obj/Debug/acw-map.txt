@@ -22,3 +22,7 @@ InvataChimie.StartActivity, InvataChimie;md51bcda0a8b5b18daf6954f79fd451c70c.Sta
 InvataChimie.StartActivity, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51bcda0a8b5b18daf6954f79fd451c70c.StartActivity
 InvataChimie.StartActivity;md51bcda0a8b5b18daf6954f79fd451c70c.StartActivity
 invatachimie.StartActivity;md51bcda0a8b5b18daf6954f79fd451c70c.StartActivity
+InvataChimie.Services.DatabaseServices, InvataChimie;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
+InvataChimie.Services.DatabaseServices, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
+InvataChimie.Services.DatabaseServices;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
+invatachimie.services.DatabaseServices;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices

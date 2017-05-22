@@ -26,10 +26,11 @@ namespace InvataChimie
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             var listView = (ListView)FindViewById<ListView>(Resource.Id.listView);
             var listOfCap = new List<Capitol>();
-            for(var i = 0; i <= 20; i++)
+            string[] arrayCap = Resources.GetStringArray(Resource.Array.capTitle);
+            for(var i = 0; i < arrayCap.Length; i++)
             {
                 var capInit = new Capitol();
-                capInit.DisplayName = "Cap " + i.ToString();
+                capInit.DisplayName = arrayCap[i];
                 capInit.Id = i;
                 capInit.PhotoId = "";
                 listOfCap.Add(capInit);

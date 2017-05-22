@@ -52,5 +52,5 @@ c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\ob
 c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\learn_layout.xml
 c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\cap_row.xml
 c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\cap_details_layout.xml
-c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.dll.mdb
-c:\users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll.mdb
+C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.dll.mdb
+C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll.mdb
