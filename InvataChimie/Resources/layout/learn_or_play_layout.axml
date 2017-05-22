@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:id="@+id/invata"
+        android:text="Invata"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="#00ff6b"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:id="@+id/joaca"
+        android:text="Joaca"
+        android:background="#ffc0cb"
+        android:textColor="#fff"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center" />
+</LinearLayout>
