@@ -1,3 +1,7 @@
+InvataChimie.CustomPagerAdapter, InvataChimie;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
+InvataChimie.CustomPagerAdapter, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
+InvataChimie.CustomPagerAdapter;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
+invatachimie.CustomPagerAdapter;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
 InvataChimie.DragFrameLayout, InvataChimie;md51bcda0a8b5b18daf6954f79fd451c70c.DragFrameLayout
 InvataChimie.DragFrameLayout, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51bcda0a8b5b18daf6954f79fd451c70c.DragFrameLayout
 InvataChimie.DragFrameLayout;md51bcda0a8b5b18daf6954f79fd451c70c.DragFrameLayout

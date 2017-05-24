@@ -101,6 +101,7 @@ class MonoPackageManager_Resources {
 		"InvataChimie.dll",
 		"Java.Interop.dll",
 		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.CardView.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",

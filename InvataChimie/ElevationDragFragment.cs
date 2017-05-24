@@ -16,23 +16,32 @@ using InvataChimie;
 
 namespace InvataChimie
 {
-    public class ElevationDragFragment : Fragment, AdapterView.IOnItemSelectedListener
+    public class ElevationDragFragment : Android.Support.V4.App.Fragment, AdapterView.IOnItemSelectedListener
     {
         public const string TAG = "ElevationFragment";
-
-        /* How much to translate each time the Z+ and Z- buttons are clicked. */
         private static int ELEVATION_STEP = 40;
-
-        /* Different outlines: */
         internal Outline mOutline;
-
         CircleOutlineProvider circleProvider;
         RectOutlineProvider rectProvider;
-
         View floatingShape;
-
-        /* The current elevation of the floating view. */
         private float mElevation = 0;
+        const string ARG_PAGE = "ARG_PAGE";
+        private int mPage;
+
+        public static ElevationDragFragment newInstance(int page)
+        {
+            var args = new Bundle();
+            args.PutInt(ARG_PAGE, page);
+            var fragment = new ElevationDragFragment();
+            fragment.Arguments = args;
+            return fragment;
+        }
+
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            mPage = Arguments.GetInt(ARG_PAGE);
+        }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {

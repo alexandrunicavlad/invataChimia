@@ -31,11 +31,11 @@ namespace InvataChimie
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int capTitle = 2131099649;
+			// aapt resource value: 0x7f080001
+			public const int capTitle = 2131230721;
 			
-			// aapt resource value: 0x7f060000
-			public const int shapes = 2131099648;
+			// aapt resource value: 0x7f080000
+			public const int shapes = 2131230720;
 			
 			static Array()
 			{
@@ -50,6 +50,39 @@ namespace InvataChimie
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010000
+			public const int cardBackgroundColor = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int cardCornerRadius = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -60,32 +93,66 @@ namespace InvataChimie
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int cardview_dark_background = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int cardview_light_background = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int cardview_shadow_end_color = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int cardview_shadow_start_color = 2130968579;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f050006
-			public const int horizontal_page_margin = 2131034118;
-			
-			// aapt resource value: 0x7f050005
-			public const int margin_huge = 2131034117;
-			
-			// aapt resource value: 0x7f050004
-			public const int margin_large = 2131034116;
-			
-			// aapt resource value: 0x7f050003
-			public const int margin_medium = 2131034115;
-			
-			// aapt resource value: 0x7f050002
-			public const int margin_small = 2131034114;
+			// aapt resource value: 0x7f050000
+			public const int cardview_compat_inset_shadow = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int margin_tiny = 2131034113;
+			public const int cardview_default_elevation = 2131034113;
 			
-			// aapt resource value: 0x7f050000
-			public const int shape_size = 2131034112;
+			// aapt resource value: 0x7f050002
+			public const int cardview_default_radius = 2131034114;
+			
+			// aapt resource value: 0x7f050009
+			public const int horizontal_page_margin = 2131034121;
+			
+			// aapt resource value: 0x7f050008
+			public const int margin_huge = 2131034120;
 			
 			// aapt resource value: 0x7f050007
-			public const int vertical_page_margin = 2131034119;
+			public const int margin_large = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int margin_medium = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int margin_small = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int margin_tiny = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int shape_size = 2131034115;
+			
+			// aapt resource value: 0x7f05000a
+			public const int vertical_page_margin = 2131034122;
 			
 			static Dimension()
 			{
@@ -134,68 +201,74 @@ namespace InvataChimie
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090002
-			public const int CapImage = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int CapImage = 2131361794;
 			
-			// aapt resource value: 0x7f090003
-			public const int CapName = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int CapName = 2131361795;
 			
-			// aapt resource value: 0x7f09000d
-			public const int MyButton = 2131296269;
+			// aapt resource value: 0x7f0a000e
+			public const int MyButton = 2131361806;
 			
-			// aapt resource value: 0x7f090011
-			public const int circle = 2131296273;
+			// aapt resource value: 0x7f0a0010
+			public const int cardView = 2131361808;
 			
-			// aapt resource value: 0x7f090009
-			public const int english = 2131296265;
+			// aapt resource value: 0x7f0a0013
+			public const int circle = 2131361811;
 			
-			// aapt resource value: 0x7f090008
-			public const int english_layout = 2131296264;
+			// aapt resource value: 0x7f0a000a
+			public const int english = 2131361802;
 			
-			// aapt resource value: 0x7f09000b
-			public const int invata = 2131296267;
+			// aapt resource value: 0x7f0a0009
+			public const int english_layout = 2131361801;
 			
-			// aapt resource value: 0x7f09000c
-			public const int joaca = 2131296268;
+			// aapt resource value: 0x7f0a000c
+			public const int invata = 2131361804;
 			
-			// aapt resource value: 0x7f09000a
-			public const int listView = 2131296266;
+			// aapt resource value: 0x7f0a000d
+			public const int joaca = 2131361805;
 			
-			// aapt resource value: 0x7f090013
-			public const int lower_bt = 2131296275;
+			// aapt resource value: 0x7f0a000b
+			public const int listView = 2131361803;
 			
-			// aapt resource value: 0x7f09000f
-			public const int main_layout = 2131296271;
+			// aapt resource value: 0x7f0a0015
+			public const int lower_bt = 2131361813;
 			
-			// aapt resource value: 0x7f090014
-			public const int menu_language = 2131296276;
+			// aapt resource value: 0x7f0a0011
+			public const int main_layout = 2131361809;
 			
-			// aapt resource value: 0x7f090012
-			public const int raise_bt = 2131296274;
+			// aapt resource value: 0x7f0a0016
+			public const int menu_language = 2131361814;
 			
-			// aapt resource value: 0x7f090007
-			public const int romanian = 2131296263;
+			// aapt resource value: 0x7f0a0014
+			public const int raise_bt = 2131361812;
 			
-			// aapt resource value: 0x7f090006
-			public const int romanian_layout = 2131296262;
+			// aapt resource value: 0x7f0a0008
+			public const int romanian = 2131361800;
 			
-			// aapt resource value: 0x7f090005
-			public const int sample_content_fragment = 2131296261;
+			// aapt resource value: 0x7f0a0007
+			public const int romanian_layout = 2131361799;
 			
-			// aapt resource value: 0x7f090004
-			public const int sample_main_layout = 2131296260;
+			// aapt resource value: 0x7f0a0006
+			public const int sample_content_fragment = 2131361798;
 			
-			// aapt resource value: 0x7f090010
-			public const int shapes_spinner = 2131296272;
+			// aapt resource value: 0x7f0a0004
+			public const int sample_main_layout = 2131361796;
 			
-			// aapt resource value: 0x7f09000e
-			public const int startButton = 2131296270;
+			// aapt resource value: 0x7f0a0012
+			public const int shapes_spinner = 2131361810;
 			
-			// aapt resource value: 0x7f090000
-			public const int toolbar = 2131296256;
+			// aapt resource value: 0x7f0a000f
+			public const int startButton = 2131361807;
 			
-			// aapt resource value: 0x7f090001
-			public const int webView = 2131296257;
+			// aapt resource value: 0x7f0a0000
+			public const int toolbar = 2131361792;
+			
+			// aapt resource value: 0x7f0a0005
+			public const int viewpager = 2131361797;
+			
+			// aapt resource value: 0x7f0a0001
+			public const int webView = 2131361793;
 			
 			static Id()
 			{
@@ -253,8 +326,8 @@ namespace InvataChimie
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f080000
-			public const int top_menus = 2131230720;
+			// aapt resource value: 0x7f090000
+			public const int top_menus = 2131296256;
 			
 			static Menu()
 			{
@@ -269,35 +342,35 @@ namespace InvataChimie
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040005
-			public const int ApplicationName = 2130968581;
+			// aapt resource value: 0x7f070005
+			public const int ApplicationName = 2131165189;
 			
-			// aapt resource value: 0x7f040004
-			public const int Hello = 2130968580;
+			// aapt resource value: 0x7f070004
+			public const int Hello = 2131165188;
 			
-			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			// aapt resource value: 0x7f070000
+			public const int app_name = 2131165184;
 			
-			// aapt resource value: 0x7f040006
-			public const int cap0 = 2130968582;
+			// aapt resource value: 0x7f070006
+			public const int cap0 = 2131165190;
 			
-			// aapt resource value: 0x7f040007
-			public const int cap1 = 2130968583;
+			// aapt resource value: 0x7f070007
+			public const int cap1 = 2131165191;
 			
-			// aapt resource value: 0x7f040008
-			public const int cap2 = 2130968584;
+			// aapt resource value: 0x7f070008
+			public const int cap2 = 2131165192;
 			
-			// aapt resource value: 0x7f040009
-			public const int cap3 = 2130968585;
+			// aapt resource value: 0x7f070009
+			public const int cap3 = 2131165193;
 			
-			// aapt resource value: 0x7f040001
-			public const int intro_message = 2130968577;
+			// aapt resource value: 0x7f070001
+			public const int intro_message = 2131165185;
 			
-			// aapt resource value: 0x7f040003
-			public const int sample_hide_log = 2130968579;
+			// aapt resource value: 0x7f070003
+			public const int sample_hide_log = 2131165187;
 			
-			// aapt resource value: 0x7f040002
-			public const int sample_show_log = 2130968578;
+			// aapt resource value: 0x7f070002
+			public const int sample_show_log = 2131165186;
 			
 			static String()
 			{
@@ -312,29 +385,38 @@ namespace InvataChimie
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f070004
-			public const int AppTheme = 2131165188;
+			// aapt resource value: 0x7f060007
+			public const int AppTheme = 2131099655;
 			
-			// aapt resource value: 0x7f070001
-			public const int MyTheme = 2131165185;
+			// aapt resource value: 0x7f060000
+			public const int CardView = 2131099648;
 			
-			// aapt resource value: 0x7f070002
-			public const int Theme_Base = 2131165186;
+			// aapt resource value: 0x7f060001
+			public const int CardView_Dark = 2131099649;
 			
-			// aapt resource value: 0x7f070003
-			public const int Theme_Sample = 2131165187;
+			// aapt resource value: 0x7f060002
+			public const int CardView_Light = 2131099650;
 			
-			// aapt resource value: 0x7f070005
-			public const int Widget = 2131165189;
+			// aapt resource value: 0x7f060004
+			public const int MyTheme = 2131099652;
 			
-			// aapt resource value: 0x7f070006
-			public const int Widget_SampleMessage = 2131165190;
+			// aapt resource value: 0x7f060005
+			public const int Theme_Base = 2131099653;
 			
-			// aapt resource value: 0x7f070007
-			public const int Widget_SampleMessageTile = 2131165191;
+			// aapt resource value: 0x7f060006
+			public const int Theme_Sample = 2131099654;
 			
-			// aapt resource value: 0x7f070000
-			public const int button_text = 2131165184;
+			// aapt resource value: 0x7f060008
+			public const int Widget = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int Widget_SampleMessage = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int Widget_SampleMessageTile = 2131099658;
+			
+			// aapt resource value: 0x7f060003
+			public const int button_text = 2131099651;
 			
 			static Style()
 			{
@@ -342,6 +424,65 @@ namespace InvataChimie
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CardView = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 0
+			public const int CardView_cardBackgroundColor = 0;
+			
+			// aapt resource value: 1
+			public const int CardView_cardCornerRadius = 1;
+			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

@@ -2,7 +2,7 @@ package md51bcda0a8b5b18daf6954f79fd451c70c;
 
 
 public class GameActivity
-	extends android.app.Activity
+	extends android.support.v4.app.FragmentActivity
 	implements
 		mono.android.IGCUserPeer
 {
