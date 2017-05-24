@@ -31,8 +31,11 @@ namespace InvataChimie
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int capTitle = 2131034112;
+			// aapt resource value: 0x7f060001
+			public const int capTitle = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int shapes = 2131099648;
 			
 			static Array()
 			{
@@ -57,6 +60,43 @@ namespace InvataChimie
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f050006
+			public const int horizontal_page_margin = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int margin_huge = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int margin_large = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int margin_medium = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int margin_small = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int margin_tiny = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int shape_size = 2131034112;
+			
+			// aapt resource value: 0x7f050007
+			public const int vertical_page_margin = 2131034119;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -75,6 +115,12 @@ namespace InvataChimie
 			// aapt resource value: 0x7f020004
 			public const int round_button = 2130837508;
 			
+			// aapt resource value: 0x7f020005
+			public const int shape = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int tile = 2130837510;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -88,47 +134,68 @@ namespace InvataChimie
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080002
-			public const int CapImage = 2131230722;
+			// aapt resource value: 0x7f090002
+			public const int CapImage = 2131296258;
 			
-			// aapt resource value: 0x7f080003
-			public const int CapName = 2131230723;
+			// aapt resource value: 0x7f090003
+			public const int CapName = 2131296259;
 			
-			// aapt resource value: 0x7f08000b
-			public const int MyButton = 2131230731;
+			// aapt resource value: 0x7f09000d
+			public const int MyButton = 2131296269;
 			
-			// aapt resource value: 0x7f080007
-			public const int english = 2131230727;
+			// aapt resource value: 0x7f090011
+			public const int circle = 2131296273;
 			
-			// aapt resource value: 0x7f080006
-			public const int english_layout = 2131230726;
+			// aapt resource value: 0x7f090009
+			public const int english = 2131296265;
 			
-			// aapt resource value: 0x7f080009
-			public const int invata = 2131230729;
+			// aapt resource value: 0x7f090008
+			public const int english_layout = 2131296264;
 			
-			// aapt resource value: 0x7f08000a
-			public const int joaca = 2131230730;
+			// aapt resource value: 0x7f09000b
+			public const int invata = 2131296267;
 			
-			// aapt resource value: 0x7f080008
-			public const int listView = 2131230728;
+			// aapt resource value: 0x7f09000c
+			public const int joaca = 2131296268;
 			
-			// aapt resource value: 0x7f08000d
-			public const int menu_language = 2131230733;
+			// aapt resource value: 0x7f09000a
+			public const int listView = 2131296266;
 			
-			// aapt resource value: 0x7f080005
-			public const int romanian = 2131230725;
+			// aapt resource value: 0x7f090013
+			public const int lower_bt = 2131296275;
 			
-			// aapt resource value: 0x7f080004
-			public const int romanian_layout = 2131230724;
+			// aapt resource value: 0x7f09000f
+			public const int main_layout = 2131296271;
 			
-			// aapt resource value: 0x7f08000c
-			public const int startButton = 2131230732;
+			// aapt resource value: 0x7f090014
+			public const int menu_language = 2131296276;
 			
-			// aapt resource value: 0x7f080000
-			public const int toolbar = 2131230720;
+			// aapt resource value: 0x7f090012
+			public const int raise_bt = 2131296274;
 			
-			// aapt resource value: 0x7f080001
-			public const int webView = 2131230721;
+			// aapt resource value: 0x7f090007
+			public const int romanian = 2131296263;
+			
+			// aapt resource value: 0x7f090006
+			public const int romanian_layout = 2131296262;
+			
+			// aapt resource value: 0x7f090005
+			public const int sample_content_fragment = 2131296261;
+			
+			// aapt resource value: 0x7f090004
+			public const int sample_main_layout = 2131296260;
+			
+			// aapt resource value: 0x7f090010
+			public const int shapes_spinner = 2131296272;
+			
+			// aapt resource value: 0x7f09000e
+			public const int startButton = 2131296270;
+			
+			// aapt resource value: 0x7f090000
+			public const int toolbar = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int webView = 2131296257;
 			
 			static Id()
 			{
@@ -150,22 +217,28 @@ namespace InvataChimie
 			public const int cap_row = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int language_layout = 2130903042;
+			public const int game_layout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int learn_layout = 2130903043;
+			public const int language_layout = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int learn_or_play_layout = 2130903044;
+			public const int learn_layout = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Main = 2130903045;
+			public const int learn_or_play_layout = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int start_layout = 2130903046;
+			public const int Main = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int toolbar = 2130903047;
+			public const int start_layout = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int toolbar = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int ztranslation = 2130903049;
 			
 			static Layout()
 			{
@@ -180,8 +253,8 @@ namespace InvataChimie
 		public partial class Menu
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int top_menus = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int top_menus = 2131230720;
 			
 			static Menu()
 			{
@@ -196,23 +269,35 @@ namespace InvataChimie
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040002
-			public const int cap0 = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int cap1 = 2130968579;
+			// aapt resource value: 0x7f040005
+			public const int ApplicationName = 2130968581;
 			
 			// aapt resource value: 0x7f040004
-			public const int cap2 = 2130968580;
+			public const int Hello = 2130968580;
 			
-			// aapt resource value: 0x7f040005
-			public const int cap3 = 2130968581;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
+			
+			// aapt resource value: 0x7f040006
+			public const int cap0 = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int cap1 = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int cap2 = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int cap3 = 2130968585;
+			
+			// aapt resource value: 0x7f040001
+			public const int intro_message = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int sample_hide_log = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int sample_show_log = 2130968578;
 			
 			static String()
 			{
@@ -227,11 +312,29 @@ namespace InvataChimie
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int MyTheme = 2131099649;
+			// aapt resource value: 0x7f070004
+			public const int AppTheme = 2131165188;
 			
-			// aapt resource value: 0x7f060000
-			public const int button_text = 2131099648;
+			// aapt resource value: 0x7f070001
+			public const int MyTheme = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int Theme_Base = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int Theme_Sample = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int Widget = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int Widget_SampleMessage = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int Widget_SampleMessageTile = 2131165191;
+			
+			// aapt resource value: 0x7f070000
+			public const int button_text = 2131165184;
 			
 			static Style()
 			{

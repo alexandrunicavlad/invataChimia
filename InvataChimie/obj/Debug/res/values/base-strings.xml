@@ -1,0 +1,9 @@
+<resources><string name="app_name">ElevationDrag</string><string name="intro_message">
+        
+            
+            This sample demonstrates a drag and drop action on different shapes. Elevation and
+            z-translation are used to render the shadows and the views are clipped using different
+            Outlines.
+            
+        
+        </string></resources>

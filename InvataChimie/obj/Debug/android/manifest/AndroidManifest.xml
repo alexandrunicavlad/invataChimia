@@ -5,6 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="InvataChimie" android:theme="@style/MyTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="GameActivity" android:name="md51bcda0a8b5b18daf6954f79fd451c70c.GameActivity" />
     <activity android:label="LearnActivity" android:name="md51bcda0a8b5b18daf6954f79fd451c70c.LearnActivity" />
     <activity android:label="LearnOrPlayActivity" android:name="md51bcda0a8b5b18daf6954f79fd451c70c.LearnOrPlayActivity" />
     <activity android:label="LearnPageActivity" android:name="md51bcda0a8b5b18daf6954f79fd451c70c.LearnPageActivity" />

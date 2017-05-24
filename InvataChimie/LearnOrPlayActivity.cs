@@ -32,7 +32,9 @@ namespace InvataChimie
 
             joaca.Click += delegate
             {
-                Toast.MakeText(this, "joaca", ToastLength.Short).Show();
+                
+                var intent = new Intent(this, typeof(GameActivity));
+                StartActivity(intent);
             };
         }
     }

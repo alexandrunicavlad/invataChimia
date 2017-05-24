@@ -9,9 +9,24 @@ package invatachimie.invatachimie;
 
 public final class R {
     public static final class array {
-        public static final int capTitle=0x7f050000;
+        public static final int capTitle=0x7f060001;
+        public static final int shapes=0x7f060000;
     }
     public static final class attr {
+    }
+    public static final class dimen {
+        /**  Semantic definitions 
+         */
+        public static final int horizontal_page_margin=0x7f050006;
+        public static final int margin_huge=0x7f050005;
+        public static final int margin_large=0x7f050004;
+        public static final int margin_medium=0x7f050003;
+        public static final int margin_small=0x7f050002;
+        /**  Define standard dimensions to comply with Holo-style grids and rhythm. 
+         */
+        public static final int margin_tiny=0x7f050001;
+        public static final int shape_size=0x7f050000;
+        public static final int vertical_page_margin=0x7f050007;
     }
     public static final class drawable {
         public static final int flag_of_romania=0x7f020000;
@@ -19,46 +34,71 @@ public final class R {
         public static final int ic_language_white=0x7f020002;
         public static final int icon=0x7f020003;
         public static final int round_button=0x7f020004;
+        public static final int shape=0x7f020005;
+        public static final int tile=0x7f020006;
     }
     public static final class id {
-        public static final int CapImage=0x7f080002;
-        public static final int CapName=0x7f080003;
-        public static final int MyButton=0x7f08000b;
-        public static final int english=0x7f080007;
-        public static final int english_layout=0x7f080006;
-        public static final int invata=0x7f080009;
-        public static final int joaca=0x7f08000a;
-        public static final int listView=0x7f080008;
-        public static final int menu_language=0x7f08000d;
-        public static final int romanian=0x7f080005;
-        public static final int romanian_layout=0x7f080004;
-        public static final int startButton=0x7f08000c;
-        public static final int toolbar=0x7f080000;
-        public static final int webView=0x7f080001;
+        public static final int CapImage=0x7f090002;
+        public static final int CapName=0x7f090003;
+        public static final int MyButton=0x7f09000d;
+        public static final int circle=0x7f090011;
+        public static final int english=0x7f090009;
+        public static final int english_layout=0x7f090008;
+        public static final int invata=0x7f09000b;
+        public static final int joaca=0x7f09000c;
+        public static final int listView=0x7f09000a;
+        public static final int lower_bt=0x7f090013;
+        public static final int main_layout=0x7f09000f;
+        public static final int menu_language=0x7f090014;
+        public static final int raise_bt=0x7f090012;
+        public static final int romanian=0x7f090007;
+        public static final int romanian_layout=0x7f090006;
+        public static final int sample_content_fragment=0x7f090005;
+        public static final int sample_main_layout=0x7f090004;
+        public static final int shapes_spinner=0x7f090010;
+        public static final int startButton=0x7f09000e;
+        public static final int toolbar=0x7f090000;
+        public static final int webView=0x7f090001;
     }
     public static final class layout {
         public static final int cap_details_layout=0x7f030000;
         public static final int cap_row=0x7f030001;
-        public static final int language_layout=0x7f030002;
-        public static final int learn_layout=0x7f030003;
-        public static final int learn_or_play_layout=0x7f030004;
-        public static final int main=0x7f030005;
-        public static final int start_layout=0x7f030006;
-        public static final int toolbar=0x7f030007;
+        public static final int game_layout=0x7f030002;
+        public static final int language_layout=0x7f030003;
+        public static final int learn_layout=0x7f030004;
+        public static final int learn_or_play_layout=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int start_layout=0x7f030007;
+        public static final int toolbar=0x7f030008;
+        public static final int ztranslation=0x7f030009;
     }
     public static final class menu {
-        public static final int top_menus=0x7f070000;
+        public static final int top_menus=0x7f080000;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f040001;
-        public static final int Hello=0x7f040000;
-        public static final int cap0=0x7f040002;
-        public static final int cap1=0x7f040003;
-        public static final int cap2=0x7f040004;
-        public static final int cap3=0x7f040005;
+        public static final int ApplicationName=0x7f040005;
+        public static final int Hello=0x7f040004;
+        public static final int app_name=0x7f040000;
+        public static final int cap0=0x7f040006;
+        public static final int cap1=0x7f040007;
+        public static final int cap2=0x7f040008;
+        public static final int cap3=0x7f040009;
+        public static final int intro_message=0x7f040001;
+        public static final int sample_hide_log=0x7f040003;
+        public static final int sample_show_log=0x7f040002;
     }
     public static final class style {
-        public static final int MyTheme=0x7f060001;
-        public static final int button_text=0x7f060000;
+        public static final int AppTheme=0x7f070004;
+        public static final int MyTheme=0x7f070001;
+        /**  Activity themes 
+         */
+        public static final int Theme_Base=0x7f070002;
+        public static final int Theme_Sample=0x7f070003;
+        /**  Widget styling 
+         */
+        public static final int Widget=0x7f070005;
+        public static final int Widget_SampleMessage=0x7f070006;
+        public static final int Widget_SampleMessageTile=0x7f070007;
+        public static final int button_text=0x7f070000;
     }
 }

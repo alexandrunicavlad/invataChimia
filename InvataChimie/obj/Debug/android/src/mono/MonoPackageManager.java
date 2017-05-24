@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "InvataChimie.dll" comes first in this list. */
 		"InvataChimie.dll",
 		"Java.Interop.dll",
+		"Xamarin.Android.Support.v4.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",
