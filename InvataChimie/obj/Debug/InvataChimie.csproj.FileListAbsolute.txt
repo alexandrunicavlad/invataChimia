@@ -63,5 +63,6 @@ C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\ob
 C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.csprojResolveAssemblyReference.cache
 C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.dll.mdb
 C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll.mdb

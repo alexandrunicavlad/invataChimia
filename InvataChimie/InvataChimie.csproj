@@ -57,22 +57,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitol.cs" />
-    <Compile Include="CustomPagerAdapter.cs" />
-    <Compile Include="DragFrameLayout.cs" />
-    <Compile Include="ElevationDragFragment.cs" />
-    <Compile Include="GameActivity.cs" />
-    <Compile Include="LearnActivity.cs" />
-    <Compile Include="LearnListAdapter.cs" />
-    <Compile Include="LearnOrPlayActivity.cs" />
-    <Compile Include="LearnPageActivity.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Models\Capitol.cs" />
+    <Compile Include="Helpers\CustomPagerAdapter.cs" />
+    <Compile Include="Helpers\DragFrameLayout.cs" />
+    <Compile Include="Helpers\ElevationDragFragment.cs" />
+    <Compile Include="Activities\GameActivity.cs" />
+    <Compile Include="Activities\LearnActivity.cs" />
+    <Compile Include="Helpers\LearnListAdapter.cs" />
+    <Compile Include="Activities\LearnOrPlayActivity.cs" />
+    <Compile Include="Activities\LearnPageActivity.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Models\Question.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DatabaseServices.cs" />
-    <Compile Include="StartActivity.cs" />
+    <Compile Include="Activities\StartActivity.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\chimie.s3db" />
     <None Include="packages.config" />
     <None Include="Resources\GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />

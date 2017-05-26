@@ -240,6 +240,9 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0016
 			public const int menu_language = 2131361814;
 			
+			// aapt resource value: 0x7f0a0012
+			public const int questionName = 2131361810;
+			
 			// aapt resource value: 0x7f0a0014
 			public const int raise_bt = 2131361812;
 			
@@ -254,9 +257,6 @@ namespace InvataChimie
 			
 			// aapt resource value: 0x7f0a0004
 			public const int sample_main_layout = 2131361796;
-			
-			// aapt resource value: 0x7f0a0012
-			public const int shapes_spinner = 2131361810;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int startButton = 2131361807;
