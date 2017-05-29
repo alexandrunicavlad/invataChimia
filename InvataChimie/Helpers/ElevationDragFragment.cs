@@ -72,6 +72,7 @@ namespace InvataChimie
             }
              
             var dragLayout = rootView.FindViewById<DragFrameLayout>(Resource.Id.main_layout);
+            dragLayout.SetGoodAnswer(question.AnswerGood);
             dragLayout.SetButton(answer1, answer2, answer1);
             dragLayout.mDragFrameLayoutController = new DragFrameLayoutController((bool captured) => {
                 floatingShape.Animate()

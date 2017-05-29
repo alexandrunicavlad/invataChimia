@@ -22,6 +22,7 @@ namespace InvataChimie
         public Button _answer1;
         public Button _answer2;
         public Button _answer3;
+        public string goodAnswer;
         /**
 	     * The {@link DragFrameLayoutController} that will be notify on drag.
 	     */
@@ -86,6 +87,11 @@ namespace InvataChimie
             _answer3 = answer3;
         }
 
+        internal void SetGoodAnswer(string good)
+        {
+            goodAnswer = good;
+        }
+
 
     }
 
@@ -106,7 +112,16 @@ namespace InvataChimie
 
         public override void OnViewPositionChanged(View changedView, int left, int top, int dx, int dy)
         {
-            Boolean a = IsViewOverLapping(owner._answer1, changedView);
+            View goodView;
+            if (owner.goodAnswer.Equals("1")) {
+                goodView = owner._answer1;
+            } else if (owner.goodAnswer.Equals("2")) {
+                goodView = owner._answer2;
+            } else {
+                goodView = owner._answer3;
+            }
+
+            Boolean a = IsViewOverLapping(goodView, changedView);
             if (a)
             {
                 if (!validate)

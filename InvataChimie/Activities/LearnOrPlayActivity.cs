@@ -44,7 +44,7 @@ namespace InvataChimie
             {
                 Id = 1,
                 Name = "Care este ?",
-                AnswerGood = "answer1",
+                AnswerGood = "1",
                 Answer1 = "nimic",
                 Answer2 = "nunu",
                 Answer3 = "dada",
@@ -54,7 +54,7 @@ namespace InvataChimie
             {
                 Id = 2,
                 Name = "Care este acela?",
-                AnswerGood = "answer2",
+                AnswerGood = "2",
                 Answer1 = "nimic",
                 Answer2 = "nunu",
                 Answer3 = "dada",
