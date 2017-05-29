@@ -23,8 +23,10 @@ namespace InvataChimie
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.game_layout);
             ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
-            
-            var adapter = new CustomPagerAdapter(this,  SupportFragmentManager);
+            var databaseServices = new DatabaseServices(this);
+            int count = databaseServices.getQuestionsCount();
+            var questions = databaseServices.getAllQuestions();
+            var adapter = new CustomPagerAdapter(this,  SupportFragmentManager, questions);
             viewPager.Adapter = adapter;
             
             if (savedInstanceState == null)

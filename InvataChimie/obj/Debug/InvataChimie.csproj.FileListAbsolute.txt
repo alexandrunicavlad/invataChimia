@@ -1,68 +1,66 @@
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.pdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.InvataChimie.apk
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.InvataChimie-Signed.apk
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.dll
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.pdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\bin\InvataChimie.InvataChimie.apk
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\start_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\learn_or_play_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\learn_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\cap_row.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\cap_details_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\ztranslation.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\game_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\main.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\strings.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\icon.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\round_button.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\styles.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\toolbar.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable-hdpi\ic_language_white.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable-mdpi\ic_language_white.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable-xhdpi\ic_language_white.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable-xxhdpi\ic_language_white.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable-xxxhdpi\ic_language_white.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\menu\top_menus.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\layout\language_layout.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\flag_of_romania.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\flag_of_united_kingdom.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\shape.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\fragmentview_strings.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\shapes.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\template-dimens.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\template-styles.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\base-strings.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\values\dimens.xml
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\res\drawable\tile.png
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\R.cs.flag
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\uploadflags.txt
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\Java.Interop.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\Mono.Android.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\mscorlib.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.ComponentModel.Composition.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.Core.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.Net.Http.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.Runtime.Serialization.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.ServiceModel.Internals.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.Xml.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\InvataChimie.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\Java.Interop.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\Mono.Android.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\mscorlib.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Core.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Net.Http.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Xml.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.csprojResolveAssemblyReference.cache
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\obj\Debug\InvataChimie.dll.mdb
-C:\Users\dell\documents\visual studio 2015\Projects\InvataChimie\InvataChimie\bin\Debug\InvataChimie.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.dll
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.pdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.InvataChimie.apk
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.InvataChimie-Signed.apk
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\InvataChimie.dll
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\InvataChimie.pdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\bin\InvataChimie.InvataChimie.apk
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\start_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\learn_or_play_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\learn_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\cap_row.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\cap_details_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\ztranslation.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\game_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\main.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\strings.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\icon.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\round_button.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\styles.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\toolbar.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-hdpi\ic_language_white.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-mdpi\ic_language_white.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xhdpi\ic_language_white.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxhdpi\ic_language_white.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxxhdpi\ic_language_white.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\menu\top_menus.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\language_layout.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\flag_of_romania.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\flag_of_united_kingdom.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\shape.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\fragmentview_strings.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\shapes.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\template-dimens.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\template-styles.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\base-strings.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\values\dimens.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable\tile.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\R.cs.flag
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\uploadflags.txt
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\InvataChimie.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\Java.Interop.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\Mono.Android.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\mscorlib.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.Core.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.Xml.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\InvataChimie.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\System.Xml.Linq.dll.mdb

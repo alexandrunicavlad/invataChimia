@@ -36,7 +36,7 @@ namespace InvataChimie
                 listOfCap.Add(capInit);
             }
             var adapter = new LearnListAdapter(this, listOfCap);
-            listView.SetAdapter(adapter);
+            listView.Adapter  =  adapter;
             listView.ItemClick += (sender, e) =>
             {
                 var cap = listOfCap[e.Position];

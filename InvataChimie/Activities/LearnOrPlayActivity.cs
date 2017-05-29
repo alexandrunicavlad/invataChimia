@@ -39,6 +39,7 @@ namespace InvataChimie
             };
 
             var databaseServices = new DatabaseServices(this);
+            databaseServices.DeleteQuestions();
             var question1 = new Question()
             {
                 Id = 1,
@@ -51,7 +52,7 @@ namespace InvataChimie
             };
             var question2 = new Question()
             {
-                Id = 1,
+                Id = 2,
                 Name = "Care este acela?",
                 AnswerGood = "answer2",
                 Answer1 = "nimic",

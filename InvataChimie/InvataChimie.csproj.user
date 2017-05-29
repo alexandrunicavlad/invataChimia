@@ -3,5 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <ProjectView>ProjectFiles</ProjectView>
+    <SelectedDevice>HTC One_M8</SelectedDevice>
+    <DefaultDevice>5" KitKat %284.4%29 XXHDPI Phone</DefaultDevice>
   </PropertyGroup>
 </Project>

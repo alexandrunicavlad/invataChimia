@@ -31,8 +31,8 @@ namespace InvataChimie
 
             string capId = "cap" + id;
             //string html = Resources.GetString(Resources.GetIdentifier(capId, "string", PackageName));
-            String mime = "text/html";
-            String encoding = "utf-8";
+            //String mime = "text/html";
+            //String encoding = "utf-8";
             webView.Settings.JavaScriptEnabled = true;
             webView.LoadUrl("file:///android_asset/" + capId.ToUpper() + ".html");
             //webView.LoadDataWithBaseURL(null, mime, encoding, null);

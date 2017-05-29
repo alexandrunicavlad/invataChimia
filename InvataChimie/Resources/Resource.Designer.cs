@@ -213,8 +213,8 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0010
 			public const int cardView = 2131361808;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int circle = 2131361811;
+			// aapt resource value: 0x7f0a0015
+			public const int circle = 2131361813;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int english = 2131361802;
@@ -231,20 +231,20 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a000b
 			public const int listView = 2131361803;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int lower_bt = 2131361813;
+			// aapt resource value: 0x7f0a0014
+			public const int lower_bt = 2131361812;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int main_layout = 2131361809;
+			// aapt resource value: 0x7f0a0012
+			public const int main_layout = 2131361810;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int menu_language = 2131361814;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int questionName = 2131361810;
+			// aapt resource value: 0x7f0a0011
+			public const int questionName = 2131361809;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int raise_bt = 2131361812;
+			// aapt resource value: 0x7f0a0013
+			public const int raise_bt = 2131361811;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int romanian = 2131361800;

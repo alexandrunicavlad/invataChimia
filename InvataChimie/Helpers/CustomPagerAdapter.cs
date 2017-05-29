@@ -17,6 +17,7 @@ namespace InvataChimie
     public class CustomPagerAdapter : FragmentPagerAdapter
     {
         const int PAGE_COUNT = 2;
+        private List<Question> listOfQuestions;
         private string[] tabTitles = { "Tab1", "Tab2" };
         readonly Context context;
 
@@ -24,19 +25,20 @@ namespace InvataChimie
         {
         }
 
-        public CustomPagerAdapter(Context context, Android.Support.V4.App.FragmentManager fm) : base(fm)
+        internal CustomPagerAdapter(Context context, Android.Support.V4.App.FragmentManager fm, List<Question> listOfQuestions) : base(fm)
         {
             this.context = context;
+            this.listOfQuestions = listOfQuestions;
         }
 
         public override int Count
         {
-            get { return PAGE_COUNT; }
+            get { return listOfQuestions.Count; }
         }
 
         public override Android.Support.V4.App.Fragment GetItem(int position)
         {
-            return ElevationDragFragment.newInstance(position + 1);
+            return ElevationDragFragment.newInstance(position + 1, listOfQuestions[position]);
         }
 
         public override ICharSequence GetPageTitleFormatted(int position)

@@ -11,13 +11,17 @@ using Android.Views;
 using Android.Widget;
 using Android.Util;
 using Android.Support.V4.Widget;
+using Android.Graphics;
 
 namespace InvataChimie
-{
+{    
     class DragFrameLayout : FrameLayout
     {
         internal IList<View> mDragViews;
 
+        public Button _answer1;
+        public Button _answer2;
+        public Button _answer3;
         /**
 	     * The {@link DragFrameLayoutController} that will be notify on drag.
 	     */
@@ -51,7 +55,7 @@ namespace InvataChimie
 	         * Create the {@link ViewDragHelper} and set its callback.
 	         */
             mDragHelper = ViewDragHelper.Create(this, 1.0f, new Callbacks(this));
-        }
+        }        
 
         public override bool OnInterceptTouchEvent(MotionEvent ev)
         {
@@ -74,15 +78,25 @@ namespace InvataChimie
         {
             mDragViews.Add(dragView);
         }
+
+        internal void SetButton(Button answer1, Button answer2, Button answer3)
+        {
+            _answer1 = answer1;
+            _answer2 = answer2;
+            _answer3 = answer3;
+        }
+
+
     }
 
     internal class Callbacks : ViewDragHelper.Callback
     {
         private DragFrameLayout owner;
+        private Boolean validate = false;
 
         public Callbacks(DragFrameLayout owner)
         {
-            this.owner = owner;
+            this.owner = owner;           
         }
 
         public override bool TryCaptureView(View child, int pointerId)
@@ -92,7 +106,38 @@ namespace InvataChimie
 
         public override void OnViewPositionChanged(View changedView, int left, int top, int dx, int dy)
         {
-            base.OnViewPositionChanged(changedView, left, top, dx, dy);
+            Boolean a = IsViewOverLapping(owner._answer1, changedView);
+            if (a)
+            {
+                if (!validate)
+                {                     
+                AlertDialog.Builder alert = new AlertDialog.Builder(owner.Context);
+                alert.SetTitle("Felicitari");
+                alert.SetPositiveButton("Next", (senderAlert, args) => {
+                    Toast.MakeText(owner.Context, "Next", ToastLength.Short).Show();
+                });
+                Dialog dialog = alert.Create();                
+                dialog.Show();
+                validate = true;
+                }
+
+            }
+            else
+            {
+                base.OnViewPositionChanged(changedView, left, top, dx, dy);
+                validate = false;
+            }
+        }
+
+        private Boolean IsViewOverLapping(View firstView, View secondView)
+        {
+            int[] firstPosition = new int[2];
+            int[] secondPosition = new int[2];
+            firstView.GetLocationOnScreen(firstPosition);
+            secondView.GetLocationOnScreen(secondPosition);
+            Rect rectFirstView = new Rect(firstPosition[0], firstPosition[1], firstPosition[0] + firstView.MeasuredWidth, firstPosition[1] + firstView.MeasuredHeight);
+            Rect rectSecondView = new Rect(secondPosition[0], secondPosition[1], secondPosition[0] + secondView.MeasuredWidth, secondPosition[1] + secondView.MeasuredHeight);
+            return rectFirstView.Intersect(rectSecondView);
         }
 
         public override int ClampViewPositionHorizontal(View child, int left, int dx)

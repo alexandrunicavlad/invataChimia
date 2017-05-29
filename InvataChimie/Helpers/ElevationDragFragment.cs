@@ -28,13 +28,15 @@ namespace InvataChimie
         private float mElevation = 0;
         const string ARG_PAGE = "ARG_PAGE";
         private int mPage;
+        private Question question;
 
-        public static ElevationDragFragment newInstance(int page)
+        internal static ElevationDragFragment newInstance(int page, Question item)
         {
             var args = new Bundle();
             args.PutInt(ARG_PAGE, page);
             var fragment = new ElevationDragFragment();
             fragment.Arguments = args;
+            fragment.question = item;
             return fragment;
         }
 
@@ -57,17 +59,20 @@ namespace InvataChimie
 
             rectProvider = new RectOutlineProvider();
             rectProvider.GetOutline(floatingShape, mOutline);
-            var databaseServices = new DatabaseServices(this.Activity);
+           
             var questionName = rootView.FindViewById<TextView>(Resource.Id.questionName);
-            int count = databaseServices.getQuestionsCount();
-            var question = databaseServices.getQuestion(1);
+            var answer1 = rootView.FindViewById<Button>(Resource.Id.raise_bt);
+            var answer2 = rootView.FindViewById<Button>(Resource.Id.lower_bt);        
+            
             if (question != null)
             {
                 questionName.Text = question.Name;
+                answer1.Text = question.Answer1;
+                answer2.Text = question.Answer2;
             }
              
             var dragLayout = rootView.FindViewById<DragFrameLayout>(Resource.Id.main_layout);
-            
+            dragLayout.SetButton(answer1, answer2, answer1);
             dragLayout.mDragFrameLayoutController = new DragFrameLayoutController((bool captured) => {
                 floatingShape.Animate()
                     .TranslationZ(captured ? 50 : 0)

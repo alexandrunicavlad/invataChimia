@@ -165,12 +165,12 @@ containing a value of this type.
         public static int lower_bt=0x7f0a0015;
         public static int main_layout=0x7f0a0011;
         public static int menu_language=0x7f0a0016;
+        public static int questionName=0x7f0a0012;
         public static int raise_bt=0x7f0a0014;
         public static int romanian=0x7f0a0008;
         public static int romanian_layout=0x7f0a0007;
         public static int sample_content_fragment=0x7f0a0006;
         public static int sample_main_layout=0x7f0a0004;
-        public static int shapes_spinner=0x7f0a0012;
         public static int startButton=0x7f0a000f;
         public static int toolbar=0x7f0a0000;
         public static int viewpager=0x7f0a0005;

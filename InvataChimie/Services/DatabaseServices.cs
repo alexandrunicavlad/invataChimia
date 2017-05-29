@@ -11,20 +11,21 @@ using Android.Views;
 using Android.Widget;
 using Android.Database.Sqlite;
 using Android.Database;
+using Android.Util;
 
 namespace InvataChimie.Services
 {
     class DatabaseServices : SQLiteOpenHelper
     {
         private const int DatabaseVersion = 5;
-        private const string DatabaseName = "chimie";
+        
         private static Context _currentContext;
         private SQLiteDatabase _db;
         private const String QUESTIONS_TABLE_NAME = "Questions";
 
 
         public DatabaseServices(Context context)
-                : base(context, DatabaseName, null, DatabaseVersion)
+                : base(context, "chimie", null, DatabaseVersion)
         {
             _currentContext = _currentContext ?? context;
             _db = WritableDatabase;
@@ -78,9 +79,43 @@ namespace InvataChimie.Services
                 }              
             } catch (SQLException s)
             {
-                var abc = 0;
+                Log.Info("da", s.Message);
             }
             return count;
+        }
+
+        public List<Question> getAllQuestions()
+        {
+            var db = GetDatabase();
+            string query = "Select * from " + QUESTIONS_TABLE_NAME + "; ";
+            var questions = new List<Question> ();
+            try
+            {
+                var cursor = db.RawQuery(query, null);
+                if (cursor.MoveToFirst())
+                {
+                    do
+                    {
+                        Question question = new Question();
+                        question.Id = cursor.GetInt(0);
+                        question.Name = cursor.GetString(1);
+                        question.AnswerGood = cursor.GetString(2);
+                        question.Answer1 = cursor.GetString(3);
+                        question.Answer2 = cursor.GetString(4);
+                        question.Answer3 = cursor.GetString(5);
+                        question.ImageKey = cursor.GetString(6);
+                        questions.Add(question);
+                    } while (cursor.MoveToNext());
+                }
+
+                cursor.Close();
+            }
+            catch (SQLException s)
+            {
+                Log.Info("da", s.Message);
+            }
+
+            return questions;
         }
 
         public Question getQuestion(int rowId)
@@ -95,9 +130,7 @@ namespace InvataChimie.Services
                 if (cursor.MoveToFirst())
                 {
                     do
-                    {
-                        //var abc = cursor.GetString (9);
-
+                    {      
                         question.Id = cursor.GetInt(0);
                         question.Name = cursor.GetString(1);
                         question.AnswerGood = cursor.GetString(2);
@@ -112,7 +145,7 @@ namespace InvataChimie.Services
             }
             catch (SQLException s)
             {
-                var abc = 0;
+                Log.Info("da", s.Message);
             }
             ////db.Close();
             return question;
@@ -133,51 +166,12 @@ namespace InvataChimie.Services
             db.Insert(QUESTIONS_TABLE_NAME, null, values);
         }
 
-
-        /*
-        public List<CabinModel> GetAllCabins()
+        public void DeleteQuestions()
         {
             var db = GetDatabase();
-
-            var cabins = new List<CabinModel>();
-            const string query = "Select * from cabins";
-            try
-            {
-                var cursor = db.RawQuery(query, null);
-                if (cursor.MoveToFirst())
-                {
-                    do
-                    {
-                        //var abc = cursor.GetString (9);
-
-                        var account = new CabinModel()
-                        {
-                            Name = cursor.GetString(0),
-                            Latitude = cursor.GetDouble(1),
-                            Longitude = cursor.GetDouble(2),
-                            Phone = cursor.GetInt(3),
-                            PhoneType = cursor.GetString(4),
-                            Email = cursor.GetString(5),
-                            EmailType = cursor.GetString(6),
-                            Price = cursor.GetFloat(7),
-                            Rating = cursor.GetInt(8)
-                            // cursor.GetString (9)
-                        };
-                        cabins.Add(account);
-                    } while (cursor.MoveToNext());
-                }
-
-                cursor.Close();
-            }
-            catch (SQLException s)
-            {
-                var abc = 0;
-            }
-            ////db.Close();
-            return cabins;
-
+            string query = "delete from " + QUESTIONS_TABLE_NAME ;
+            db.ExecSQL(query);
         }
-        */
 
     }
 }
