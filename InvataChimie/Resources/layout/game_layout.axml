@@ -4,6 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/sample_main_layout">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

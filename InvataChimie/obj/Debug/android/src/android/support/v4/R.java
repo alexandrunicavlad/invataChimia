@@ -146,32 +146,35 @@ containing a value of this type.
         public static int flag_of_romania=0x7f020000;
         public static int flag_of_united_kingdom=0x7f020001;
         public static int ic_language_white=0x7f020002;
-        public static int icon=0x7f020003;
-        public static int round_button=0x7f020004;
-        public static int shape=0x7f020005;
-        public static int tile=0x7f020006;
+        public static int ic_trophy=0x7f020003;
+        public static int icon=0x7f020004;
+        public static int round_button=0x7f020005;
+        public static int shape=0x7f020006;
+        public static int tile=0x7f020007;
     }
     public static final class id {
         public static int CapImage=0x7f0a0002;
         public static int CapName=0x7f0a0003;
         public static int MyButton=0x7f0a000e;
-        public static int cardView=0x7f0a0010;
-        public static int circle=0x7f0a0013;
+        public static int cardView=0x7f0a0011;
+        public static int circle=0x7f0a0016;
         public static int english=0x7f0a000a;
         public static int english_layout=0x7f0a0009;
         public static int invata=0x7f0a000c;
         public static int joaca=0x7f0a000d;
         public static int listView=0x7f0a000b;
         public static int lower_bt=0x7f0a0015;
-        public static int main_layout=0x7f0a0011;
-        public static int menu_language=0x7f0a0016;
+        public static int main_layout=0x7f0a0013;
+        public static int menu_language=0x7f0a0018;
+        public static int overlay_game=0x7f0a0017;
+        public static int progressBar=0x7f0a000f;
         public static int questionName=0x7f0a0012;
         public static int raise_bt=0x7f0a0014;
         public static int romanian=0x7f0a0008;
         public static int romanian_layout=0x7f0a0007;
         public static int sample_content_fragment=0x7f0a0006;
         public static int sample_main_layout=0x7f0a0004;
-        public static int startButton=0x7f0a000f;
+        public static int startButton=0x7f0a0010;
         public static int toolbar=0x7f0a0000;
         public static int viewpager=0x7f0a0005;
         public static int webView=0x7f0a0001;
@@ -184,9 +187,11 @@ containing a value of this type.
         public static int learn_layout=0x7f030004;
         public static int learn_or_play_layout=0x7f030005;
         public static int main=0x7f030006;
-        public static int start_layout=0x7f030007;
-        public static int toolbar=0x7f030008;
-        public static int ztranslation=0x7f030009;
+        public static int overlay=0x7f030007;
+        public static int start_layout=0x7f030008;
+        public static int toolbar=0x7f030009;
+        public static int trophy_layout=0x7f03000a;
+        public static int ztranslation=0x7f03000b;
     }
     public static final class menu {
         public static int top_menus=0x7f090000;

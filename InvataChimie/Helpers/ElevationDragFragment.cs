@@ -56,16 +56,26 @@ namespace InvataChimie
 
             circleProvider = new CircleOutlineProvider();
             circleProvider.GetOutline(floatingShape, mOutline);
-
+            
+            floatingShape.ClipToOutline = true;
             rectProvider = new RectOutlineProvider();
             rectProvider.GetOutline(floatingShape, mOutline);
-           
+            floatingShape.OutlineProvider = circleProvider;
+            floatingShape.ClipToOutline = true;
             var questionName = rootView.FindViewById<TextView>(Resource.Id.questionName);
             var answer1 = rootView.FindViewById<Button>(Resource.Id.raise_bt);
-            var answer2 = rootView.FindViewById<Button>(Resource.Id.lower_bt);        
-            
+            var answer2 = rootView.FindViewById<Button>(Resource.Id.lower_bt);
+            var overlay = rootView.FindViewById<LinearLayout>(Resource.Id.overlay_game);
             if (question != null)
             {
+                if (question.Resolved == 0)
+                {
+                    overlay.Visibility = ViewStates.Gone;
+                }
+                else
+                {
+                    overlay.Visibility = ViewStates.Visible;
+                }
                 questionName.Text = question.Name;
                 answer1.Text = question.Answer1;
                 answer2.Text = question.Answer2;
@@ -75,9 +85,17 @@ namespace InvataChimie
             dragLayout.SetGoodAnswer(question.AnswerGood);
             dragLayout.SetButton(answer1, answer2, answer1);
             dragLayout.mDragFrameLayoutController = new DragFrameLayoutController((bool captured) => {
-                floatingShape.Animate()
+                if (captured)
+                {
+                    ((GameActivity) Activity).swipeRight(mPage);
+                }
+                else
+                {
+                    floatingShape.Animate()
                     .TranslationZ(captured ? 50 : 0)
                     .SetDuration(100);
+                }
+                
                
             });
 

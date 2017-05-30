@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Preferences;
+using InvataChimie.Services;
 
 namespace InvataChimie
 {
@@ -29,6 +30,57 @@ namespace InvataChimie
                  var intent = new Intent(this, typeof(LearnOrPlayActivity));
                  StartActivity(intent);
              };
+
+            var databaseServices = new DatabaseServices(this);
+            databaseServices.DeleteQuestions();
+            var question1 = new Question()
+            {
+                Id = 1,
+                Name = "Care este ?",
+                AnswerGood = "1",
+                Answer1 = "nimic",
+                Answer2 = "nunu",
+                Answer3 = "dada",
+                ImageKey = "nu este",
+                Resolved = 0
+            };
+            var question2 = new Question()
+            {
+                Id = 2,
+                Name = "Care este acela?",
+                AnswerGood = "2",
+                Answer1 = "nimic",
+                Answer2 = "nunu",
+                Answer3 = "dada",
+                ImageKey = "nu este",
+                Resolved = 0
+            };
+            var question3 = new Question()
+            {
+                Id = 3,
+                Name = "Care este 3?",
+                AnswerGood = "2",
+                Answer1 = "nimic",
+                Answer2 = "nunu",
+                Answer3 = "dada",
+                ImageKey = "nu este",
+                Resolved = 0
+            };
+            var question4 = new Question()
+            {
+                Id = 4,
+                Name = "Care este 4?",
+                AnswerGood = "2",
+                Answer1 = "nimic",
+                Answer2 = "nunu",
+                Answer3 = "dada",
+                ImageKey = "nu este",
+                Resolved = 0
+            };
+            databaseServices.InsertQuestion(question1);
+            databaseServices.InsertQuestion(question2);
+            databaseServices.InsertQuestion(question3);
+            databaseServices.InsertQuestion(question4);
         }
 
 

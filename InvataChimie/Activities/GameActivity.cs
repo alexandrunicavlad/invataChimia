@@ -18,23 +18,50 @@ namespace InvataChimie
     [Activity(Label = "GameActivity")]
     public class GameActivity : FragmentActivity
     {
+        private ViewPager viewPager;
+        private int count;
+        private CustomPagerAdapter adapter;
+        private List<Question> questions;
+        private DatabaseServices databaseServices;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.game_layout);
-            ViewPager viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
-            var databaseServices = new DatabaseServices(this);
-            int count = databaseServices.getQuestionsCount();
-            var questions = databaseServices.getAllQuestions();
-            var adapter = new CustomPagerAdapter(this,  SupportFragmentManager, questions);
-            viewPager.Adapter = adapter;
-            
-            if (savedInstanceState == null)
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            SetActionBar(toolbar);
+            ActionBar.Title = "Game";
+            ActionBar.SetHomeButtonEnabled(true);
+            ActionBar.SetDisplayHomeAsUpEnabled(true);
+            viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
+            viewPager.OffscreenPageLimit = 1;
+            databaseServices = new DatabaseServices(this);
+            count = databaseServices.getQuestionsCount();
+            questions = databaseServices.getAllQuestions();
+            adapter = new CustomPagerAdapter(this,  SupportFragmentManager, questions);
+            viewPager.Adapter = adapter;           
+           
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
             {
-               //var transaction = FragmentManager.BeginTransaction();
-               
-               //transaction.Replace(Resource.Id.sample_content_fragment, fragment);
-               //transaction.Commit();
+                case Android.Resource.Id.Home:
+                    Finish();
+                    return true;
+
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
+        }
+
+        public void swipeRight(int x) {
+            if (x < questions.Count)
+            {
+                questions[x-1].Resolved = 1;
+                databaseServices.UpdateQuestion(questions[x - 1]);
+                viewPager.SetCurrentItem(x, true);    
             }
         }
     }

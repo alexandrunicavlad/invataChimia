@@ -13,6 +13,7 @@ using Android.Util;
 using Android.Support.V4.Widget;
 using Android.Graphics;
 
+
 namespace InvataChimie
 {    
     class DragFrameLayout : FrameLayout
@@ -99,11 +100,11 @@ namespace InvataChimie
     {
         private DragFrameLayout owner;
         private Boolean validate = false;
-
+        
         public Callbacks(DragFrameLayout owner)
         {
-            this.owner = owner;           
-        }
+            this.owner = owner;
+         }
 
         public override bool TryCaptureView(View child, int pointerId)
         {
@@ -125,12 +126,20 @@ namespace InvataChimie
             if (a)
             {
                 if (!validate)
-                {                     
-                AlertDialog.Builder alert = new AlertDialog.Builder(owner.Context);
-                alert.SetTitle("Felicitari");
-                alert.SetPositiveButton("Next", (senderAlert, args) => {
-                    Toast.MakeText(owner.Context, "Next", ToastLength.Short).Show();
-                });
+                {
+                    
+                    var inflater = LayoutInflater.From(owner.Context);
+                    
+                    var inputView = inflater.Inflate(Resource.Layout.trophy_layout, null);
+                    AlertDialog.Builder alert = new AlertDialog.Builder(owner.Context);
+                    alert.SetTitle("Felicitari");
+                    alert.SetView(inputView);
+                    alert.SetPositiveButton("Next", (senderAlert, args) => {
+                        if (owner.mDragFrameLayoutController != null)
+                        {
+                            owner.mDragFrameLayoutController.OnDragDrop(true);
+                        }
+                    });
                 Dialog dialog = alert.Create();                
                 dialog.Show();
                 validate = true;

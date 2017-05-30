@@ -36,32 +36,7 @@ namespace InvataChimie
                 
                 var intent = new Intent(this, typeof(GameActivity));
                 StartActivity(intent);
-            };
-
-            var databaseServices = new DatabaseServices(this);
-            databaseServices.DeleteQuestions();
-            var question1 = new Question()
-            {
-                Id = 1,
-                Name = "Care este ?",
-                AnswerGood = "1",
-                Answer1 = "nimic",
-                Answer2 = "nunu",
-                Answer3 = "dada",
-                ImageKey = "nu este"                 
-            };
-            var question2 = new Question()
-            {
-                Id = 2,
-                Name = "Care este acela?",
-                AnswerGood = "2",
-                Answer1 = "nimic",
-                Answer2 = "nunu",
-                Answer3 = "dada",
-                ImageKey = "nu este"
-            };
-            databaseServices.InsertQuestion(question1);
-            databaseServices.InsertQuestion(question2);
+            };           
 
         }
     }

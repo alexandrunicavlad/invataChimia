@@ -146,10 +146,12 @@ containing a value of this type.
         public static final int flag_of_romania=0x7f020000;
         public static final int flag_of_united_kingdom=0x7f020001;
         public static final int ic_language_white=0x7f020002;
-        public static final int icon=0x7f020003;
-        public static final int round_button=0x7f020004;
-        public static final int shape=0x7f020005;
-        public static final int tile=0x7f020006;
+        public static final int ic_succes=0x7f020003;
+        public static final int ic_trophy=0x7f020004;
+        public static final int icon=0x7f020005;
+        public static final int round_button=0x7f020006;
+        public static final int shape=0x7f020007;
+        public static final int tile=0x7f020008;
     }
     public static final class id {
         public static final int CapImage=0x7f0a0002;
@@ -164,7 +166,8 @@ containing a value of this type.
         public static final int listView=0x7f0a000b;
         public static final int lower_bt=0x7f0a0014;
         public static final int main_layout=0x7f0a0012;
-        public static final int menu_language=0x7f0a0016;
+        public static final int menu_language=0x7f0a0017;
+        public static final int overlay_game=0x7f0a0016;
         public static final int questionName=0x7f0a0011;
         public static final int raise_bt=0x7f0a0013;
         public static final int romanian=0x7f0a0008;
@@ -184,9 +187,11 @@ containing a value of this type.
         public static final int learn_layout=0x7f030004;
         public static final int learn_or_play_layout=0x7f030005;
         public static final int main=0x7f030006;
-        public static final int start_layout=0x7f030007;
-        public static final int toolbar=0x7f030008;
-        public static final int ztranslation=0x7f030009;
+        public static final int overlay=0x7f030007;
+        public static final int start_layout=0x7f030008;
+        public static final int toolbar=0x7f030009;
+        public static final int trophy_layout=0x7f03000a;
+        public static final int ztranslation=0x7f03000b;
     }
     public static final class menu {
         public static final int top_menus=0x7f090000;

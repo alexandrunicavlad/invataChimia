@@ -40,7 +40,8 @@ namespace InvataChimie.Services
                                     "answer1 " + "text, " +
                                     "answer2 " + "text, " +
                                     "answer3 " + "text, " +
-                                    "image_key " + "text);";
+                                    "image_key " + "text, " +
+                                    "resolved " + "integer);";
             db.ExecSQL(databasecreate);
         }
 
@@ -87,7 +88,7 @@ namespace InvataChimie.Services
         public List<Question> getAllQuestions()
         {
             var db = GetDatabase();
-            string query = "Select * from " + QUESTIONS_TABLE_NAME + "; ";
+            string query = "Select * from " + QUESTIONS_TABLE_NAME + " ORDER BY RANDOM() ; ";
             var questions = new List<Question> ();
             try
             {
@@ -104,6 +105,7 @@ namespace InvataChimie.Services
                         question.Answer2 = cursor.GetString(4);
                         question.Answer3 = cursor.GetString(5);
                         question.ImageKey = cursor.GetString(6);
+                        question.Resolved = cursor.GetInt(7);
                         questions.Add(question);
                     } while (cursor.MoveToNext());
                 }
@@ -137,7 +139,8 @@ namespace InvataChimie.Services
                         question.Answer1 = cursor.GetString(3);
                         question.Answer2 = cursor.GetString(4);
                         question.Answer3 = cursor.GetString(5);
-                        question.ImageKey = cursor.GetString(6);                       
+                        question.ImageKey = cursor.GetString(6);
+                        question.Resolved = cursor.GetInt(7);                    
                     } while (cursor.MoveToNext());
                 }
 
@@ -151,6 +154,21 @@ namespace InvataChimie.Services
             return question;
         }
 
+        public void UpdateQuestion(Question question)
+        {
+            var db = GetDatabase();
+            var values = new ContentValues();
+            values.Put("id", question.Id);
+            values.Put("name", question.Name);
+            values.Put("answer_good", question.AnswerGood);
+            values.Put("answer1", question.Answer1);
+            values.Put("answer2", question.Answer2);
+            values.Put("answer3", question.Answer3);
+            values.Put("image_key", question.ImageKey);
+            values.Put("resolved", question.Resolved);
+            db.Update(QUESTIONS_TABLE_NAME, values, "id=" + question.Id, null);
+        }
+
         public void InsertQuestion(Question question)
         {
             var db = GetDatabase();
@@ -162,6 +180,7 @@ namespace InvataChimie.Services
             values.Put("answer2", question.Answer2);
             values.Put("answer3", question.Answer3);
             values.Put("image_key", question.ImageKey);
+            values.Put("resolved", question.Resolved);
             
             db.Insert(QUESTIONS_TABLE_NAME, null, values);
         }
