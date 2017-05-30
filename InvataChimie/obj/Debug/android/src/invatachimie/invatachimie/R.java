@@ -166,7 +166,8 @@ containing a value of this type.
         public static final int listView=0x7f0a000b;
         public static final int lower_bt=0x7f0a0014;
         public static final int main_layout=0x7f0a0012;
-        public static final int menu_language=0x7f0a0017;
+        public static final int menu_language=0x7f0a0018;
+        public static final int menu_refresh=0x7f0a0017;
         public static final int overlay_game=0x7f0a0016;
         public static final int questionName=0x7f0a0011;
         public static final int raise_bt=0x7f0a0013;
@@ -194,17 +195,21 @@ containing a value of this type.
         public static final int ztranslation=0x7f03000b;
     }
     public static final class menu {
-        public static final int top_menus=0x7f090000;
+        public static final int refresh=0x7f090000;
+        public static final int top_menus=0x7f090001;
     }
     public static final class string {
         public static final int ApplicationName=0x7f070005;
+        /** StartActivity
+         */
         public static final int Hello=0x7f070004;
         public static final int app_name=0x7f070000;
-        public static final int cap0=0x7f070006;
-        public static final int cap1=0x7f070007;
-        public static final int cap2=0x7f070008;
-        public static final int cap3=0x7f070009;
+        public static final int capitole=0x7f07000a;
+        public static final int incepem=0x7f070006;
         public static final int intro_message=0x7f070001;
+        public static final int invata=0x7f070008;
+        public static final int joaca=0x7f070007;
+        public static final int joc=0x7f070009;
         public static final int sample_hide_log=0x7f070003;
         public static final int sample_show_log=0x7f070002;
     }

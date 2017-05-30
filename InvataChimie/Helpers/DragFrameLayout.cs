@@ -140,9 +140,11 @@ namespace InvataChimie
                             owner.mDragFrameLayoutController.OnDragDrop(true);
                         }
                     });
-                Dialog dialog = alert.Create();                
+                Dialog dialog = alert.Create();
+                dialog.SetCancelable(false);
                 dialog.Show();
                 validate = true;
+
                 }
 
             }

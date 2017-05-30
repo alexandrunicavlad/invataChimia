@@ -30,7 +30,8 @@ namespace InvataChimie
             SetContentView(Resource.Layout.game_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
-            ActionBar.Title = "Game";
+
+            ActionBar.Title = Resources.GetString(Resource.String.joc);
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
@@ -50,13 +51,35 @@ namespace InvataChimie
                 case Android.Resource.Id.Home:
                     Finish();
                     return true;
+                case Resource.Id.menu_refresh:
+                    ResetResolved();
+                    return true;                  
 
                 default:
                     return base.OnOptionsItemSelected(item);
             }
         }
 
-        public void swipeRight(int x) {
+        public void ResetResolved()
+        {
+            if (questions != null && questions.Count != 0)
+            {
+                foreach (var question in questions)
+                {
+                    if (question.Resolved == 1)
+                    {
+                        question.Resolved = 0;
+                        databaseServices.UpdateQuestion(question);
+                    }
+
+                }
+                Finish();
+            }
+        
+        }
+
+        public void swipeRight(int x)
+        {
             if (x < questions.Count)
             {
                 questions[x-1].Resolved = 1;
@@ -64,5 +87,11 @@ namespace InvataChimie
                 viewPager.SetCurrentItem(x, true);    
             }
         }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.refresh, menu);
+            return base.OnCreateOptionsMenu(menu);
+        }       
     }
 }

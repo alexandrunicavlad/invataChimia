@@ -11,20 +11,26 @@ using Android.Views;
 using Android.Widget;
 using Android.Preferences;
 using InvataChimie.Services;
+using Java.Util;
+using Android.Content.Res;
 
 namespace InvataChimie
 {
     [Activity(Label = "StartActivity")]
     public class StartActivity : Activity
     {
+        private Boolean recreate = false;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            
             SetContentView(Resource.Layout.start_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);          
-            ActionBar.Title = "Invata Chimia";
+            ActionBar.Title = Resources.GetString(Resource.String.Hello);
             var startButton = (Button)FindViewById<Button>(Resource.Id.startButton);
+            
             startButton.Click += delegate
              {
                  var intent = new Intent(this, typeof(LearnOrPlayActivity));
@@ -106,18 +112,33 @@ namespace InvataChimie
             {
                 editor.PutString("language", "ro");
                 editor.Apply();
+                SetupLanguage("ro");
+                Recreate();
                 builder.Cancel();
+
             };
 
             englishLayout.Click += delegate
             {
                 editor.PutString("language", "en");
                 editor.Apply();
+                SetupLanguage("en");
+                Recreate();
                 builder.Cancel();
             };
 
             builder.Show();
             return base.OnOptionsItemSelected(item);
+        }
+
+        private void SetupLanguage(String lang)
+        {
+            var language = PreferenceManager.GetDefaultSharedPreferences(ApplicationContext).GetString("Language", lang);
+            var locale = new Locale(language);
+            Locale.Default = locale;
+            Configuration config = new Configuration();
+            config.Locale = locale;
+            this.BaseContext.Resources.UpdateConfiguration(config, this.BaseContext.Resources.DisplayMetrics);
         }
     }
 }

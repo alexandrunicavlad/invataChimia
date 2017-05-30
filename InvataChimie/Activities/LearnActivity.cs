@@ -21,7 +21,7 @@ namespace InvataChimie
             SetContentView(Resource.Layout.learn_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
-            ActionBar.Title = "Capitole";
+            ActionBar.Title = Resources.GetString(Resource.String.capitole);
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             var listView = (ListView)FindViewById<ListView>(Resource.Id.listView);

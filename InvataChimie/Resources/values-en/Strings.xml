@@ -12,10 +12,11 @@
     <item>COMPUSI CARBONILICI</item>
   </string-array>
 
-  
-  <string name="Hello">Invata Chimie</string>
-  <string name="incepem">Sa incepem</string>
-  <string name="joaca">Joaca</string>
-  <string name="invata">Invata</string>
-
+  <!--StartActivity-->
+  <string name="Hello">Learn chemistry</string>
+  <string name="incepem">Let\'s begin</string>
+  <string name="joaca">Play</string>
+  <string name="invata">Learn</string>
+  <string name="joc">The Game</string>
+  <string name="capitole">Chapters</string>
 </resources>

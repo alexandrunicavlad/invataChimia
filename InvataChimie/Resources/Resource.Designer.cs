@@ -243,8 +243,11 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0012
 			public const int main_layout = 2131361810;
 			
+			// aapt resource value: 0x7f0a0018
+			public const int menu_language = 2131361816;
+			
 			// aapt resource value: 0x7f0a0017
-			public const int menu_language = 2131361815;
+			public const int menu_refresh = 2131361815;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int overlay_game = 2131361814;
@@ -342,7 +345,10 @@ namespace InvataChimie
 		{
 			
 			// aapt resource value: 0x7f090000
-			public const int top_menus = 2131296256;
+			public const int refresh = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int top_menus = 2131296257;
 			
 			static Menu()
 			{
@@ -366,20 +372,23 @@ namespace InvataChimie
 			// aapt resource value: 0x7f070000
 			public const int app_name = 2131165184;
 			
+			// aapt resource value: 0x7f07000a
+			public const int capitole = 2131165194;
+			
 			// aapt resource value: 0x7f070006
-			public const int cap0 = 2131165190;
-			
-			// aapt resource value: 0x7f070007
-			public const int cap1 = 2131165191;
-			
-			// aapt resource value: 0x7f070008
-			public const int cap2 = 2131165192;
-			
-			// aapt resource value: 0x7f070009
-			public const int cap3 = 2131165193;
+			public const int incepem = 2131165190;
 			
 			// aapt resource value: 0x7f070001
 			public const int intro_message = 2131165185;
+			
+			// aapt resource value: 0x7f070008
+			public const int invata = 2131165192;
+			
+			// aapt resource value: 0x7f070007
+			public const int joaca = 2131165191;
+			
+			// aapt resource value: 0x7f070009
+			public const int joc = 2131165193;
 			
 			// aapt resource value: 0x7f070003
 			public const int sample_hide_log = 2131165187;

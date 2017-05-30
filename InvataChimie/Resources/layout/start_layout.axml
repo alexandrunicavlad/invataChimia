@@ -10,7 +10,7 @@
         android:id="@+id/startButton"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:text="Sa incepem"
+        android:text="@string/incepem"
         android:layout_centerInParent="true"
         style="@style/button_text" />
 </RelativeLayout>
