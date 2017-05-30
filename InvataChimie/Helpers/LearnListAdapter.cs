@@ -46,7 +46,9 @@ namespace InvataChimie
             var elem = _capList[position];
             var view = convertView ?? context.LayoutInflater.Inflate(Resource.Layout.cap_row, parent, false);
             var capName = (TextView)view.FindViewById<TextView>(Resource.Id.CapName);
+            var capImage = (ImageView)view.FindViewById<ImageView>(Resource.Id.CapImage);
             capName.Text = elem.DisplayName;
+            capImage.SetImageResource(elem.PhotoId);
             return view;
         }
     }

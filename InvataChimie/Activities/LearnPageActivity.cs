@@ -23,13 +23,13 @@ namespace InvataChimie
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
             SetActionBar(toolbar);
             string text = Intent.GetStringExtra("capName") ?? "Data not available";
-            int id = Intent.GetIntExtra("capId", 0);
+            int id = Intent.GetIntExtra("capId", 0) ;
             ActionBar.Title = text;
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             var webView = (WebView)FindViewById<WebView>(Resource.Id.webView);
 
-            string capId = "cap" + id;
+            string capId = "cap" + id ;
             //string html = Resources.GetString(Resources.GetIdentifier(capId, "string", PackageName));
             //String mime = "text/html";
             //String encoding = "utf-8";

@@ -31,8 +31,8 @@ namespace InvataChimie
             {
                 var capInit = new Capitol();
                 capInit.DisplayName = arrayCap[i];
-                capInit.Id = i;
-                capInit.PhotoId = "";
+                capInit.Id = i + 1;                
+                capInit.PhotoId = Resources.GetIdentifier("ic_cap" + capInit.Id, "drawable", PackageName);                             
                 listOfCap.Add(capInit);
             }
             var adapter = new LearnListAdapter(this, listOfCap);

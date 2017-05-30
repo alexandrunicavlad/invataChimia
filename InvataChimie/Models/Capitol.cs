@@ -16,6 +16,6 @@ namespace InvataChimie
     {
         public int Id { get; set; }
         public string DisplayName { get; set; }
-        public string PhotoId { get; set; }
+        public int PhotoId { get; set; }       
     }
 }
