@@ -152,13 +152,15 @@ containing a value of this type.
         public static int ic_cap4=0x7f020006;
         public static int ic_cap5=0x7f020007;
         public static int ic_cap6=0x7f020008;
-        public static int ic_language_white=0x7f020009;
-        public static int ic_succes=0x7f02000a;
-        public static int ic_trophy=0x7f02000b;
-        public static int icon=0x7f02000c;
-        public static int round_button=0x7f02000d;
-        public static int shape=0x7f02000e;
-        public static int tile=0x7f02000f;
+        public static int ic_keyboard_arrow_left_white_24dp=0x7f020009;
+        public static int ic_keyboard_arrow_right_white_24dp=0x7f02000a;
+        public static int ic_language_white=0x7f02000b;
+        public static int ic_succes=0x7f02000c;
+        public static int ic_trophy=0x7f02000d;
+        public static int icon=0x7f02000e;
+        public static int round_button=0x7f02000f;
+        public static int shape=0x7f020010;
+        public static int tile=0x7f020011;
     }
     public static final class id {
         public static int CapImage=0x7f0a0002;
@@ -183,7 +185,7 @@ containing a value of this type.
         public static int sample_main_layout=0x7f0a0004;
         public static int startButton=0x7f0a000f;
         public static int toolbar=0x7f0a0000;
-        public static int toolbar_bottom=0x7f0a0006;
+        public static int toolbarBottom=0x7f0a0006;
         public static int viewpager=0x7f0a0005;
         public static int webView=0x7f0a0001;
     }
@@ -198,8 +200,9 @@ containing a value of this type.
         public static int overlay=0x7f030007;
         public static int start_layout=0x7f030008;
         public static int toolbar=0x7f030009;
-        public static int trophy_layout=0x7f03000a;
-        public static int ztranslation=0x7f03000b;
+        public static int toolbar_bottom=0x7f03000a;
+        public static int trophy_layout=0x7f03000b;
+        public static int ztranslation=0x7f03000c;
     }
     public static final class menu {
         public static int refresh=0x7f090000;

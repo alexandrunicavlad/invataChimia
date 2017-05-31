@@ -132,9 +132,9 @@ namespace InvataChimie
                     
                     var inputView = inflater.Inflate(Resource.Layout.trophy_layout, null);
                     AlertDialog.Builder alert = new AlertDialog.Builder(owner.Context);
-                    alert.SetTitle("Felicitari");
+                    alert.SetTitle(owner.Context.Resources.GetString(Resource.String.felicitari));
                     alert.SetView(inputView);
-                    alert.SetPositiveButton("Next", (senderAlert, args) => {
+                    alert.SetPositiveButton(owner.Context.Resources.GetString(Resource.String.dreapta), (senderAlert, args) => {
                         if (owner.mDragFrameLayoutController != null)
                         {
                             owner.mDragFrameLayoutController.OnDragDrop(true);

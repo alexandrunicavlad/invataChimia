@@ -85,6 +85,27 @@ namespace InvataChimie.Services
             return count;
         }
 
+        public int getQuestionsCountResolved()
+        {
+            var db = GetDatabase();
+            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where resolved = 1 ;";
+            int count = 0;
+            try
+            {
+                var cursor = db.RawQuery(query, null);
+                if (cursor != null)
+                {
+                    count = cursor.Count;
+                    cursor.Close();
+                }
+            }
+            catch (SQLException s)
+            {
+                Log.Info("da", s.Message);
+            }
+            return count;
+        }
+
         public List<Question> getAllQuestions()
         {
             var db = GetDatabase();

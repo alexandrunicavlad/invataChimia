@@ -1,3 +1,4 @@
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\InvataChimie.csprojResolveAssemblyReference.cache
 C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.dll
 C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.pdb
 C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.InvataChimie.apk
@@ -55,8 +56,18 @@ C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxhdpi\
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xhdpi\ic_arrow_forward_black_24dp.png
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-mdpi\ic_arrow_forward_black_24dp.png
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-hdpi\ic_arrow_forward_black_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\toolbar_bottom.xml
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-hdpi\ic_keyboard_arrow_left_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-hdpi\ic_keyboard_arrow_right_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-mdpi\ic_keyboard_arrow_left_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-mdpi\ic_keyboard_arrow_right_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xhdpi\ic_keyboard_arrow_left_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xhdpi\ic_keyboard_arrow_right_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxhdpi\ic_keyboard_arrow_left_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxhdpi\ic_keyboard_arrow_right_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxxhdpi\ic_keyboard_arrow_left_white_24dp.png
+C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\drawable-xxxhdpi\ic_keyboard_arrow_right_white_24dp.png
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\R.cs.flag
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\uploadflags.txt
-C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\res\layout\toolbar_bottom.xml
 C:\Users\dell\Documents\invataChimia\InvataChimie\bin\Debug\InvataChimie.dll.mdb
 C:\Users\dell\Documents\invataChimia\InvataChimie\obj\Debug\android\assets\InvataChimie.dll.mdb

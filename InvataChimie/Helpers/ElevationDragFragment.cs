@@ -87,7 +87,10 @@ namespace InvataChimie
             dragLayout.mDragFrameLayoutController = new DragFrameLayoutController((bool captured) => {
                 if (captured)
                 {
+                    question.Resolved = 1;
+                    this.FragmentManager.BeginTransaction().Detach(this).Attach(this).Commit();
                     ((GameActivity) Activity).swipeRight(mPage);
+
                 }
                 else
                 {

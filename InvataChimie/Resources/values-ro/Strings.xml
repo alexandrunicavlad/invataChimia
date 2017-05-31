@@ -19,5 +19,8 @@
   <string name="invata">Invata</string>
   <string name="joc">Jocul</string>
   <string name="capitole">Capitole</string>
-
+  <string name="stanga">Inapoi</string>
+  <string name="dreapta">Inainte</string>
+  <string name="felicitari">Felicitari</string>
+  <string name="intrebare">Intrebare rezolvata</string>
 </resources>

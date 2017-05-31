@@ -152,38 +152,43 @@ containing a value of this type.
         public static final int ic_cap4=0x7f020006;
         public static final int ic_cap5=0x7f020007;
         public static final int ic_cap6=0x7f020008;
-        public static final int ic_language_white=0x7f020009;
-        public static final int ic_succes=0x7f02000a;
-        public static final int ic_trophy=0x7f02000b;
-        public static final int icon=0x7f02000c;
-        public static final int round_button=0x7f02000d;
-        public static final int shape=0x7f02000e;
-        public static final int tile=0x7f02000f;
+        public static final int ic_keyboard_arrow_left_white_24dp=0x7f020009;
+        public static final int ic_keyboard_arrow_right_white_24dp=0x7f02000a;
+        public static final int ic_language_white=0x7f02000b;
+        public static final int ic_succes=0x7f02000c;
+        public static final int ic_trophy=0x7f02000d;
+        public static final int icon=0x7f02000e;
+        public static final int round_button=0x7f02000f;
+        public static final int shape=0x7f020010;
+        public static final int tile=0x7f020011;
     }
     public static final class id {
         public static final int CapImage=0x7f0a0002;
         public static final int CapName=0x7f0a0003;
         public static final int MyButton=0x7f0a000e;
-        public static final int cardView=0x7f0a0010;
-        public static final int circle=0x7f0a0015;
+        public static final int cardView=0x7f0a0013;
+        public static final int circle=0x7f0a0018;
         public static final int english=0x7f0a000a;
         public static final int english_layout=0x7f0a0009;
         public static final int invata=0x7f0a000c;
         public static final int joaca=0x7f0a000d;
         public static final int listView=0x7f0a000b;
-        public static final int lower_bt=0x7f0a0014;
-        public static final int main_layout=0x7f0a0012;
-        public static final int menu_language=0x7f0a0018;
-        public static final int menu_refresh=0x7f0a0017;
-        public static final int overlay_game=0x7f0a0016;
-        public static final int questionName=0x7f0a0011;
-        public static final int raise_bt=0x7f0a0013;
+        public static final int lower_bt=0x7f0a0017;
+        public static final int main_layout=0x7f0a0015;
+        public static final int menu_language=0x7f0a001b;
+        public static final int menu_refresh=0x7f0a001a;
+        public static final int overlay_game=0x7f0a0019;
+        public static final int questionName=0x7f0a0014;
+        public static final int raise_bt=0x7f0a0016;
         public static final int romanian=0x7f0a0008;
         public static final int romanian_layout=0x7f0a0007;
         public static final int sample_main_layout=0x7f0a0004;
         public static final int startButton=0x7f0a000f;
         public static final int toolbar=0x7f0a0000;
         public static final int toolbarBottom=0x7f0a0006;
+        public static final int toolbarBottom_left=0x7f0a0010;
+        public static final int toolbarBottom_middle=0x7f0a0011;
+        public static final int toolbarBottom_right=0x7f0a0012;
         public static final int viewpager=0x7f0a0005;
         public static final int webView=0x7f0a0001;
     }
@@ -213,13 +218,17 @@ containing a value of this type.
         public static final int Hello=0x7f070004;
         public static final int app_name=0x7f070000;
         public static final int capitole=0x7f07000a;
+        public static final int dreapta=0x7f07000c;
+        public static final int felicitari=0x7f07000d;
         public static final int incepem=0x7f070006;
+        public static final int intrebare=0x7f07000e;
         public static final int intro_message=0x7f070001;
         public static final int invata=0x7f070008;
         public static final int joaca=0x7f070007;
         public static final int joc=0x7f070009;
         public static final int sample_hide_log=0x7f070003;
         public static final int sample_show_log=0x7f070002;
+        public static final int stanga=0x7f07000b;
     }
     public static final class style {
         public static final int AppTheme=0x7f060007;

@@ -19,4 +19,8 @@
   <string name="invata">Learn</string>
   <string name="joc">The Game</string>
   <string name="capitole">Chapters</string>
+  <string name="stanga">Previous</string>
+  <string name="dreapta">Next</string>
+  <string name="felicitari">Congratulations</string>
+  <string name="intrebare">Fixed question</string>
 </resources>
