@@ -21,8 +21,8 @@ namespace InvataChimie
         public string Answer2 { get; set; }
         public string Answer3 { get; set; }
         public string ImageKey { get; set; }
-
         public int Resolved { get; set; }
+        public string Type { get; set; }
 
     }
 }

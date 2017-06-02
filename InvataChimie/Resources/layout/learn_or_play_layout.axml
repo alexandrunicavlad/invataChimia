@@ -16,16 +16,35 @@
         android:typeface="sans"
         android:textStyle="bold"
         android:gravity="center" />
-    <TextView
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.5"
-        android:id="@+id/joaca"
-        android:text="@string/joaca"
-        android:background="#ffc0cb"
-        android:textColor="#fff"
-        android:typeface="sans"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:gravity="center" />
+        android:weightSum="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/joaca"
+            android:text="@string/joaca"
+            android:background="#ffc0cb"
+            android:textColor="#fff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/quiz"
+            android:text="@string/quiz"
+            android:background="#010101"
+            android:textColor="#fff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:gravity="center" />
+    </LinearLayout>
 </LinearLayout>

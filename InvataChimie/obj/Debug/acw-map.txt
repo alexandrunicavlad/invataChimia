@@ -1,3 +1,7 @@
+InvataChimie.CustomPagerAdapterQuiz, InvataChimie;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapterQuiz
+InvataChimie.CustomPagerAdapterQuiz, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapterQuiz
+InvataChimie.CustomPagerAdapterQuiz;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapterQuiz
+invatachimie.CustomPagerAdapterQuiz;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapterQuiz
 InvataChimie.CustomPagerAdapter, InvataChimie;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
 InvataChimie.CustomPagerAdapter, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
 InvataChimie.CustomPagerAdapter;md51bcda0a8b5b18daf6954f79fd451c70c.CustomPagerAdapter
@@ -54,6 +58,14 @@ InvataChimie.Services.DatabaseServices, InvataChimie;md5017ae899ae33e7fd5bc78450
 InvataChimie.Services.DatabaseServices, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
 InvataChimie.Services.DatabaseServices;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
 invatachimie.services.DatabaseServices;md5017ae899ae33e7fd5bc7845043ecc823.DatabaseServices
+InvataChimie.Helpers.QuizFragment, InvataChimie;md5609f56566c252081635fb86f9d9c903a.QuizFragment
+InvataChimie.Helpers.QuizFragment, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5609f56566c252081635fb86f9d9c903a.QuizFragment
+InvataChimie.Helpers.QuizFragment;md5609f56566c252081635fb86f9d9c903a.QuizFragment
+invatachimie.helpers.QuizFragment;md5609f56566c252081635fb86f9d9c903a.QuizFragment
+InvataChimie.Activities.QuizActivity, InvataChimie;md595704aa923b94743c3ccc89c44673845.QuizActivity
+InvataChimie.Activities.QuizActivity, InvataChimie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md595704aa923b94743c3ccc89c44673845.QuizActivity
+InvataChimie.Activities.QuizActivity;md595704aa923b94743c3ccc89c44673845.QuizActivity
+invatachimie.activities.QuizActivity;md595704aa923b94743c3ccc89c44673845.QuizActivity
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor

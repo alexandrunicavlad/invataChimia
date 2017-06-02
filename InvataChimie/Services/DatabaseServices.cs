@@ -41,7 +41,8 @@ namespace InvataChimie.Services
                                     "answer2 " + "text, " +
                                     "answer3 " + "text, " +
                                     "image_key " + "text, " +
-                                    "resolved " + "integer);";
+                                    "resolved " + "integer, " + 
+                                    "type " + "text);";
             db.ExecSQL(databasecreate);
         }
 
@@ -68,7 +69,7 @@ namespace InvataChimie.Services
         public int getQuestionsCount()
         {
             var db = GetDatabase();
-            const string query = "Select * from " + QUESTIONS_TABLE_NAME;
+            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where type = 'play' ;"; ;
             int count = 0;
             try
             {
@@ -85,10 +86,52 @@ namespace InvataChimie.Services
             return count;
         }
 
+        public int getQuestionQuizCount()
+        {
+            var db = GetDatabase();
+            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where type = 'quiz' ;"; ;
+            int count = 0;
+            try
+            {
+                var cursor = db.RawQuery(query, null);
+                if (cursor != null)
+                {
+                    count = cursor.Count;
+                    cursor.Close();
+                }
+            }
+            catch (SQLException s)
+            {
+                Log.Info("da", s.Message);
+            }
+            return count;
+        }
+
         public int getQuestionsCountResolved()
         {
             var db = GetDatabase();
-            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where resolved = 1 ;";
+            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where resolved = 1 and type = 'play' ;";
+            int count = 0;
+            try
+            {
+                var cursor = db.RawQuery(query, null);
+                if (cursor != null)
+                {
+                    count = cursor.Count;
+                    cursor.Close();
+                }
+            }
+            catch (SQLException s)
+            {
+                Log.Info("da", s.Message);
+            }
+            return count;
+        }
+
+        public int getQuestionsQuizCountResolved()
+        {
+            var db = GetDatabase();
+            const string query = "Select * from " + QUESTIONS_TABLE_NAME + " where resolved = 1 and type = 'quiz' ;";
             int count = 0;
             try
             {
@@ -109,7 +152,7 @@ namespace InvataChimie.Services
         public List<Question> getAllQuestions()
         {
             var db = GetDatabase();
-            string query = "Select * from " + QUESTIONS_TABLE_NAME + " ORDER BY RANDOM() ; ";
+            string query = "Select * from " + QUESTIONS_TABLE_NAME + " where type = 'play' ORDER BY RANDOM() ; ";
             var questions = new List<Question> ();
             try
             {
@@ -127,6 +170,43 @@ namespace InvataChimie.Services
                         question.Answer3 = cursor.GetString(5);
                         question.ImageKey = cursor.GetString(6);
                         question.Resolved = cursor.GetInt(7);
+                        question.Type = cursor.GetString(8);
+                        questions.Add(question);
+                    } while (cursor.MoveToNext());
+                }
+
+                cursor.Close();
+            }
+            catch (SQLException s)
+            {
+                Log.Info("da", s.Message);
+            }
+
+            return questions;
+        }
+
+        public List<Question> getAllQuizQuestions()
+        {
+            var db = GetDatabase();
+            string query = "Select * from " + QUESTIONS_TABLE_NAME + " where type = 'quiz' ORDER BY RANDOM() ; ";
+            var questions = new List<Question>();
+            try
+            {
+                var cursor = db.RawQuery(query, null);
+                if (cursor.MoveToFirst())
+                {
+                    do
+                    {
+                        Question question = new Question();
+                        question.Id = cursor.GetInt(0);
+                        question.Name = cursor.GetString(1);
+                        question.AnswerGood = cursor.GetString(2);
+                        question.Answer1 = cursor.GetString(3);
+                        question.Answer2 = cursor.GetString(4);
+                        question.Answer3 = cursor.GetString(5);
+                        question.ImageKey = cursor.GetString(6);
+                        question.Resolved = cursor.GetInt(7);
+                        question.Type = cursor.GetString(8);
                         questions.Add(question);
                     } while (cursor.MoveToNext());
                 }
@@ -161,7 +241,8 @@ namespace InvataChimie.Services
                         question.Answer2 = cursor.GetString(4);
                         question.Answer3 = cursor.GetString(5);
                         question.ImageKey = cursor.GetString(6);
-                        question.Resolved = cursor.GetInt(7);                    
+                        question.Resolved = cursor.GetInt(7);
+                        question.Type = cursor.GetString(8);               
                     } while (cursor.MoveToNext());
                 }
 
@@ -187,6 +268,7 @@ namespace InvataChimie.Services
             values.Put("answer3", question.Answer3);
             values.Put("image_key", question.ImageKey);
             values.Put("resolved", question.Resolved);
+            values.Put("type", question.Type);
             db.Update(QUESTIONS_TABLE_NAME, values, "id=" + question.Id, null);
         }
 
@@ -202,7 +284,7 @@ namespace InvataChimie.Services
             values.Put("answer3", question.Answer3);
             values.Put("image_key", question.ImageKey);
             values.Put("resolved", question.Resolved);
-            
+            values.Put("type", question.Type);
             db.Insert(QUESTIONS_TABLE_NAME, null, values);
         }
 

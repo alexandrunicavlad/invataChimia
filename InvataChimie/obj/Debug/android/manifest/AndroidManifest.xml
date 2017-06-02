@@ -16,6 +16,7 @@
       </intent-filter>
     </activity>
     <activity android:label="StartActivity" android:name="md51bcda0a8b5b18daf6954f79fd451c70c.StartActivity" />
+    <activity android:label="QuizActivity" android:name="md595704aa923b94743c3ccc89c44673845.QuizActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="InvataChimie.InvataChimie.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
