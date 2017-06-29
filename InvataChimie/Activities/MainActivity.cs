@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace InvataChimie
 {
-    [Activity(Label = "InvataChimie", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Chainmistry", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class MainActivity : Activity
     {
         

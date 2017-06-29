@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="InvataChimie.InvataChimie" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="16" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Chainmistry.Chainmistry" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" />
 	<uses-permission android:name="android.permission.VIBRATE" />
-	<application android:label="InvataChimie" android:theme="@style/MyTheme" android:icon="@drawable/ic_launcher"></application>
+	<application android:label="Chainmistry" android:theme="@style/MyTheme" android:icon="@drawable/ic_launcher"></application>
 </manifest>

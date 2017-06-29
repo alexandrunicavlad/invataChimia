@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="Hello">Hello World, Click Me!</string>
-  <string name="ApplicationName">InvataChimie</string>
+  <string name="ApplicationName">Chainmistry</string>
 
   <string-array name="capTitle">
     <item>LANTURI DE CATENE</item>
@@ -13,7 +13,7 @@
   </string-array>
 
 
-  <string name="Hello">Invata Chimie</string>
+  <string name="Hello">Chainmistry</string>
   <string name="incepem">Sa incepem</string>
   <string name="joaca">Joaca</string>
   <string name="invata">Invata</string>
