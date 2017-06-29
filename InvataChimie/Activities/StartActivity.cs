@@ -19,7 +19,7 @@ namespace InvataChimie
     [Activity(Label = "StartActivity")]
     public class StartActivity : Activity
     {
-        private Boolean recreate = false;
+        
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -38,30 +38,10 @@ namespace InvataChimie
              };
 
             var databaseServices = new DatabaseServices(this);
-            databaseServices.DeleteQuestions();
-
-            for (var i = 100; i <= 130; i++)
-            {
-                var questionNew = new Question
-                {
-                    Id = i,
-                    Name = "Care este " + i + "?",
-                    AnswerGood = "1",
-                    Answer1 = "Ras 1" + i,
-                    Answer2 = "Ras 2" + i,
-                    Answer3 = "Ras 3" + i,
-                    ImageKey = "nu este",
-                    Resolved = 0,
-                    Type = "play"
-                };
-                databaseServices.InsertQuestion(questionNew);
-            }
+            databaseServices.DeleteQuestions();           
 
             populateQuizTable(databaseServices);
-
-
-
-
+            populateGameTable(databaseServices);
         }
 
         private void populateQuizTable(DatabaseServices databaseServices)
@@ -96,7 +76,7 @@ namespace InvataChimie
             {
                 Id = 3,
                 Name = "Carei tip de hidrocarbura apartine urmatoarea strucutra?",
-                AnswerGood = "1",
+                AnswerGood = "3",
                 Answer1 = "Alchinelor",
                 Answer2 = "Alcanilor",
                 Answer3 = "Alchenelor",
@@ -122,7 +102,7 @@ namespace InvataChimie
             {
                 Id = 5,
                 Name = "Care dintre urmatoarele siruri contin numai alcani?",
-                AnswerGood = "1",
+                AnswerGood = "2",
                 Answer1 = "Metil, propan, butena",
                 Answer2 = "Etan, metan, propan",
                 Answer3 = "Etena, propena, butena",
@@ -135,7 +115,7 @@ namespace InvataChimie
             {
                 Id = 6,
                 Name = "Care sunt, in ordine, izomerii de mai jos?",
-                AnswerGood = "1",
+                AnswerGood = "2",
                 Answer1 = "Meta, orto, para",
                 Answer2 = "Orto, meta, para",
                 Answer3 = "Para, orto, meta",
@@ -148,7 +128,7 @@ namespace InvataChimie
             {
                 Id = 7,
                 Name = "Ce tip de reactie a alchelor are loc in imagine?",
-                AnswerGood = "1",
+                AnswerGood = "2",
                 Answer1 = "Oxidare",
                 Answer2 = "Polimerizare",
                 Answer3 = "Aditia hidracizilor",
@@ -180,6 +160,122 @@ namespace InvataChimie
             databaseServices.InsertQuestion(question8);
 
 
+        }
+
+        private void populateGameTable(DatabaseServices databaseServices)
+        {
+            var question1 = new Question
+            {
+                Id = 101,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "Acid benzoic",
+                Answer2 = "Acid benzilic",
+                Answer3 = "",
+                ImageKey = "an101",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question2 = new Question
+            {
+                Id = 102,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "Alchina",
+                Answer2 = "Alchena",
+                Answer3 = "",
+                ImageKey = "an102",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question3 = new Question
+            {
+                Id = 103,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "Alcool",
+                Answer2 = "Fenol",
+                Answer3 = "",
+                ImageKey = "an103",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question4 = new Question
+            {
+                Id = 104,
+                Name = "",
+                AnswerGood = "2",
+                Answer1 = "-orto",
+                Answer2 = "-meta",
+                Answer3 = "",
+                ImageKey = "an104",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question5 = new Question
+            {
+                Id = 105,
+                Name = "",
+                AnswerGood = "2",
+                Answer1 = "Alcool ",
+                Answer2 = "Fenol",
+                Answer3 = "",
+                ImageKey = "an105",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question6 = new Question
+            {
+                Id = 106,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "Alcan",
+                Answer2 = "Alchina",
+                Answer3 = "",
+                ImageKey = "an106",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question7 = new Question
+            {
+                Id = 107,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "Enol",
+                Answer2 = "Alchena",
+                Answer3 = "",
+                ImageKey = "an107",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            var question8 = new Question
+            {
+                Id = 108,
+                Name = "",
+                AnswerGood = "1",
+                Answer1 = "1,3 – butandiena",
+                Answer2 = "2,4 – butandiena",
+                Answer3 = "",
+                ImageKey = "an108",
+                Resolved = 0,
+                Type = "play"
+            };
+
+            databaseServices.InsertQuestion(question1);
+            databaseServices.InsertQuestion(question2);
+            databaseServices.InsertQuestion(question3);
+            databaseServices.InsertQuestion(question4);
+            databaseServices.InsertQuestion(question5);
+            databaseServices.InsertQuestion(question6);
+            databaseServices.InsertQuestion(question7);
+            databaseServices.InsertQuestion(question8);
         }
 
 

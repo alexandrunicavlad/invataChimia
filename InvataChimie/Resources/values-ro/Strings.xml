@@ -24,4 +24,5 @@
   <string name="dreapta">Inainte</string>
   <string name="felicitari">Felicitari</string>
   <string name="intrebare">Intrebare rezolvata</string>
+  <string name="gresit">Raspuns gresit</string>
 </resources>

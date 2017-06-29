@@ -24,4 +24,5 @@
   <string name="dreapta">Next</string>
   <string name="felicitari">Congratulations</string>
   <string name="intrebare">Fixed question</string>
+  <string name="gresit">Wrong answer</string>
 </resources>

@@ -79,6 +79,10 @@ namespace InvataChimie.Helpers
                 {
                     validate();
                 }
+                else
+                {
+                    invalidate();
+                }
             };
 
             answer2.Click += delegate
@@ -86,6 +90,10 @@ namespace InvataChimie.Helpers
                 if (question.AnswerGood.Equals("2"))
                 {
                     validate();
+                }
+                else
+                {
+                    invalidate();
                 }
             };
 
@@ -95,10 +103,22 @@ namespace InvataChimie.Helpers
                 {
                     validate();
                 }
-            };
+                else
+                {
+                    invalidate();
+                }
+                };
+
 
 
             return rootView;
+        }
+
+        private void invalidate()
+        {
+            Vibrator vibrator = (Vibrator)Activity.GetSystemService(Context.VibratorService);
+            vibrator.Vibrate(500);
+            Toast.MakeText(Context, Resources.GetString(Resource.String.gresit), ToastLength.Short).Show();
         }
 
         private void validate()

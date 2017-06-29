@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.V4.App;
@@ -31,6 +32,7 @@ namespace InvataChimie.Activities
         base.OnCreate(savedInstanceState);
         SetContentView(Resource.Layout.quiz_layout);
         var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+        toolbar.SetBackgroundColor(Color.ParseColor("#F6511D"));
         SetActionBar(toolbar);
 
         ActionBar.Title = Resources.GetString(Resource.String.quiz);

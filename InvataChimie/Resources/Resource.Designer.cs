@@ -171,76 +171,103 @@ namespace InvataChimie
 			public const int an1 = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int an2 = 2130837505;
+			public const int an101 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int an3 = 2130837506;
+			public const int an102 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int an4 = 2130837507;
+			public const int an103 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int an6 = 2130837508;
+			public const int an104 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int an7 = 2130837509;
+			public const int an105 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int an8 = 2130837510;
+			public const int an106 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Flag_of_Romania = 2130837511;
+			public const int an107 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int Flag_of_United_Kingdom = 2130837512;
+			public const int an108 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int ic_arrow_forward_black_24dp = 2130837513;
+			public const int an2 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int ic_cap1 = 2130837514;
+			public const int an3 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int ic_cap2 = 2130837515;
+			public const int an4 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int ic_cap3 = 2130837516;
+			public const int an6 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int ic_cap4 = 2130837517;
+			public const int an7 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int ic_cap5 = 2130837518;
+			public const int an8 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int ic_cap6 = 2130837519;
+			public const int Flag_of_Romania = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int ic_keyboard_arrow_left_white_24dp = 2130837520;
+			public const int Flag_of_United_Kingdom = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int ic_keyboard_arrow_right_white_24dp = 2130837521;
+			public const int ic_arrow_forward_black_24dp = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int ic_language_white = 2130837522;
+			public const int ic_cap1 = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int ic_succes = 2130837523;
+			public const int ic_cap2 = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int ic_trophy = 2130837524;
+			public const int ic_cap3 = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int Icon = 2130837525;
+			public const int ic_cap4 = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int round_button = 2130837526;
+			public const int ic_cap5 = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int shape = 2130837527;
+			public const int ic_cap6 = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int tile = 2130837528;
+			public const int ic_keyboard_arrow_left_white_24dp = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int ic_keyboard_arrow_right_white_24dp = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int ic_language_white = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int ic_launcher = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int ic_succes = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int ic_trophy = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int Icon = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int round_button = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int shape = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int tile = 2130837537;
 			
 			static Drawable()
 			{
@@ -261,23 +288,20 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0003
 			public const int CapName = 2131361795;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int MyButton = 2131361807;
-			
-			// aapt resource value: 0x7f0a0013
-			public const int answer1_quiz = 2131361811;
-			
 			// aapt resource value: 0x7f0a0014
-			public const int answer2_quiz = 2131361812;
+			public const int answer1_quiz = 2131361812;
 			
 			// aapt resource value: 0x7f0a0015
-			public const int answer3_quiz = 2131361813;
+			public const int answer2_quiz = 2131361813;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int cardView = 2131361808;
+			// aapt resource value: 0x7f0a0016
+			public const int answer3_quiz = 2131361814;
 			
-			// aapt resource value: 0x7f0a001e
-			public const int circle = 2131361822;
+			// aapt resource value: 0x7f0a0011
+			public const int cardView = 2131361809;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int circle = 2131361823;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int english = 2131361802;
@@ -294,32 +318,32 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a000b
 			public const int listView = 2131361803;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int lower_bt = 2131361821;
+			// aapt resource value: 0x7f0a001e
+			public const int lower_bt = 2131361822;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int main_layout = 2131361819;
+			// aapt resource value: 0x7f0a001c
+			public const int main_layout = 2131361820;
+			
+			// aapt resource value: 0x7f0a0021
+			public const int menu_language = 2131361825;
 			
 			// aapt resource value: 0x7f0a0020
-			public const int menu_language = 2131361824;
+			public const int menu_refresh = 2131361824;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int menu_refresh = 2131361823;
+			// aapt resource value: 0x7f0a0017
+			public const int overlay_game = 2131361815;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int overlay_game = 2131361814;
+			// aapt resource value: 0x7f0a0013
+			public const int questionImage = 2131361811;
 			
 			// aapt resource value: 0x7f0a0012
-			public const int questionImage = 2131361810;
-			
-			// aapt resource value: 0x7f0a0011
-			public const int questionName = 2131361809;
+			public const int questionName = 2131361810;
 			
 			// aapt resource value: 0x7f0a000e
 			public const int quiz = 2131361806;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int raise_bt = 2131361820;
+			// aapt resource value: 0x7f0a001d
+			public const int raise_bt = 2131361821;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int romanian = 2131361800;
@@ -330,8 +354,14 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0004
 			public const int sample_main_layout = 2131361796;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int startButton = 2131361815;
+			// aapt resource value: 0x7f0a000f
+			public const int splash = 2131361807;
+			
+			// aapt resource value: 0x7f0a0010
+			public const int splash_progressBar = 2131361808;
+			
+			// aapt resource value: 0x7f0a0018
+			public const int startButton = 2131361816;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int toolbar = 2131361792;
@@ -339,14 +369,14 @@ namespace InvataChimie
 			// aapt resource value: 0x7f0a0006
 			public const int toolbarBottom = 2131361798;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int toolbarBottom_left = 2131361816;
-			
 			// aapt resource value: 0x7f0a0019
-			public const int toolbarBottom_middle = 2131361817;
+			public const int toolbarBottom_left = 2131361817;
 			
 			// aapt resource value: 0x7f0a001a
-			public const int toolbarBottom_right = 2131361818;
+			public const int toolbarBottom_middle = 2131361818;
+			
+			// aapt resource value: 0x7f0a001b
+			public const int toolbarBottom_right = 2131361819;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int viewpager = 2131361797;
@@ -461,6 +491,9 @@ namespace InvataChimie
 			
 			// aapt resource value: 0x7f07000e
 			public const int felicitari = 2131165198;
+			
+			// aapt resource value: 0x7f070010
+			public const int gresit = 2131165200;
 			
 			// aapt resource value: 0x7f070006
 			public const int incepem = 2131165190;

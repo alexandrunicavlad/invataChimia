@@ -51,12 +51,24 @@ namespace InvataChimie
             var rootView = inflater.Inflate(Resource.Layout.ztranslation, container, false);
 
             floatingShape = rootView.FindViewById(Resource.Id.circle);
+            ImageView questionImage = rootView.FindViewById<ImageView>(Resource.Id.questionImage);
+
 
             mOutline = new Outline();
 
             circleProvider = new CircleOutlineProvider();
             circleProvider.GetOutline(floatingShape, mOutline);
-            
+
+            try
+            {
+                int resourceId = Resources.GetIdentifier(question.ImageKey.ToString(), "drawable", this.Activity.PackageName);                
+                questionImage.SetImageResource(resourceId);
+            }
+            catch (Java.IO.IOException ex)
+            {
+
+            }
+
             floatingShape.ClipToOutline = true;
             rectProvider = new RectOutlineProvider();
             rectProvider.GetOutline(floatingShape, mOutline);

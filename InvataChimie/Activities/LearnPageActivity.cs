@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Webkit;
+using Android.Graphics;
 
 namespace InvataChimie
 {
@@ -21,6 +22,7 @@ namespace InvataChimie
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.cap_details_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.SetBackgroundColor(Color.ParseColor("#7FB800"));
             SetActionBar(toolbar);
             string text = Intent.GetStringExtra("capName") ?? "Data not available";
             int id = Intent.GetIntExtra("capId", 0) ;

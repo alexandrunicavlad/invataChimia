@@ -12,6 +12,7 @@ using Android.Widget;
 using Android.Support.V4.View;
 using Android.Support.V4.App;
 using InvataChimie.Services;
+using Android.Graphics;
 
 namespace InvataChimie
 {
@@ -31,6 +32,7 @@ namespace InvataChimie
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.game_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.SetBackgroundColor(Color.ParseColor("#FFB400"));
             SetActionBar(toolbar);
 
             ActionBar.Title = Resources.GetString(Resource.String.joc);

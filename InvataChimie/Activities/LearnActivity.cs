@@ -5,6 +5,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -20,6 +21,7 @@ namespace InvataChimie
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.learn_layout);
             var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.SetBackgroundColor(Color.ParseColor("#7FB800"));
             SetActionBar(toolbar);
             ActionBar.Title = Resources.GetString(Resource.String.capitole);
             ActionBar.SetHomeButtonEnabled(true);
